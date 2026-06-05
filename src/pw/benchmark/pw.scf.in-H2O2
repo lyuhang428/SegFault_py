@@ -1,0 +1,31 @@
+&CONTROL
+ prefix = "H2O2",
+ pseudo_dir = '../pseudo',
+ outdir = "./H2O2"
+ /
+ 
+ &SYSTEM
+ ibrav = 1,
+ A = 10,
+ ecutwfc = 50,
+ nat = 4,
+ ntyp = 2,
+ !input_dft = pz
+ /
+ 
+ &ELECTRONS
+ conv_thr = 1e-6,
+ /
+ 
+ATOMIC_SPECIES
+ H 1.004 H_ONCV_PBE-1.2.upf
+ O 16.008 O_ONCV_PBE-1.2.upf
+ 
+ATOMIC_POSITIONS {crystal}
+O 0.5 0.5734058 0.4947250000000001
+O 0.5 0.42659420000000003 0.4947250000000001
+H 0.5839546999999999 0.5880752 0.5422001
+H 0.41604530000000006 0.4119248 0.5422001
+
+ K_POINTS {AUTOMATIC}
+ 1 1 1 0 0 0

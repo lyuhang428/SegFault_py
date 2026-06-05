@@ -1,0 +1,31 @@
+&CONTROL
+ prefix = "C2H2",
+ pseudo_dir = '../pseudo',
+ outdir = "./C2H2"
+ /
+ 
+ &SYSTEM
+ ibrav = 1,
+ A = 10,
+ ecutwfc = 50,
+ nat = 4,
+ ntyp = 2,
+ !input_dft = pz
+ /
+ 
+ &ELECTRONS
+ conv_thr = 1e-6,
+ /
+ 
+ATOMIC_SPECIES
+ H 1.004 H_ONCV_PBE-1.2.upf
+ C 12.011 C_ONCV_PBE-1.2.upf
+  
+ATOMIC_POSITIONS {crystal}
+C 0.5 0.5 0.560808
+C 0.5 0.5 0.439192
+H 0.5 0.5 0.33260100000000004
+H 0.5 0.5 0.667399
+
+ K_POINTS {AUTOMATIC}
+ 1 1 1 0 0 0

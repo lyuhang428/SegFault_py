@@ -1,0 +1,29 @@
+&CONTROL
+ prefix = "NaCl",
+ pseudo_dir = '../pseudo',
+ outdir = "./NaCl"
+ /
+ 
+ &SYSTEM
+ ibrav = 1,
+ A = 10,
+ ecutwfc = 50,
+ nat = 2,
+ ntyp = 2,
+ !input_dft = pz
+ /
+ 
+ &ELECTRONS
+ conv_thr = 1e-6,
+ /
+ 
+ATOMIC_SPECIES
+ Na 22.990 Na_ONCV_PBE-1.2.upf
+ Cl 35.453 Cl_ONCV_PBE-1.2.upf
+ 
+ATOMIC_POSITIONS {crystal}
+Na 0.5 0.5 0.354834
+Cl 0.5 0.5 0.593931
+
+ K_POINTS {AUTOMATIC}
+ 1 1 1 0 0 0

@@ -1,0 +1,37 @@
+
+     Program PWSCF v.7.0 starts on  4Jun2026 at 12:12:29 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      16 processor cores
+     Number of MPI processes:                 1
+     Threads/MPI process:                    16
+
+     MPI processes distributed on     1 nodes
+     11428 MiB available memory on the printing compute node when the environment starts
+
+     Reading input from pw.scf.in-BeH
+Warning: card  C 12.011 C_ONCV_PBE-1.2.UPF ignored
+Warning: card  N 14.007 N_ONCV_PBE-1.2.UPF ignored
+Warning: card  S 32.065 S_ONCV_PBE-1.2.UPF ignored
+Warning: card  B 10.811 B_ONCV_PBE-1.2.UPF ignored
+Warning: card  P 30.974 P_ONCV_PBE-1.2.UPF ignored
+Warning: card  NA 22.990 NA_ONCV_PBE-1.2.UPF ignored
+Warning: card  CL 35.453 CL_ONCV_PBE-1.2.UPF ignored
+Warning: card  BE 9.012 BE_ONCV_PBE-1.2.UPF ignored
+Warning: card  AL 26.982 AL_ONCV_PBE-1.2.UPF ignored
+Warning: card  LI 6.941 LI_ONCV_PBE-1.2.UPF ignored
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine read_cards (1):
+     species Be in ATOMIC_POSITIONS is nonexistent
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...

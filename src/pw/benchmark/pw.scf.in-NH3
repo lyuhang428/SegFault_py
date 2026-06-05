@@ -1,0 +1,31 @@
+&CONTROL
+ prefix = "NH3",
+ pseudo_dir = '../pseudo',
+ outdir = "./NH3"
+ /
+ 
+ &SYSTEM
+ ibrav = 1,
+ A = 10,
+ ecutwfc = 50,
+ nat = 4,
+ ntyp = 2,
+ !input_dft = pz
+ /
+ 
+ &ELECTRONS
+ conv_thr = 1e-6,
+ /
+ 
+ATOMIC_SPECIES
+ H 1.004 H_ONCV_PBE-1.2.upf
+ N 14.007 N_ONCV_PBE-1.2.upf
+  
+ATOMIC_POSITIONS {crystal}
+N 0.5 0.5 0.5116489
+H 0.5 0.5939731 0.4728192
+H 0.5813831 0.45301349999999996 0.4728192
+H 0.41861689999999996 0.45301349999999996 0.4728192
+
+ K_POINTS {AUTOMATIC}
+ 1 1 1 0 0 0

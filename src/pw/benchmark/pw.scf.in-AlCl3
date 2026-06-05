@@ -1,0 +1,31 @@
+&CONTROL
+ prefix = "AlCl3",
+ pseudo_dir = '../pseudo',
+ outdir = "./AlCl3"
+ /
+ 
+ &SYSTEM
+ ibrav = 1,
+ A = 10,
+ ecutwfc = 50,
+ nat = 4,
+ ntyp = 2,
+ !input_dft = pz
+ /
+ 
+ &ELECTRONS
+ conv_thr = 1e-6,
+ /
+ 
+ATOMIC_SPECIES
+ Cl 35.453 Cl_ONCV_PBE-1.2.upf
+ Al 26.982 Al_ONCV_PBE-1.2.upf
+ 
+ATOMIC_POSITIONS {crystal}
+Al 0.5 0.5 0.5
+Cl 0.5 0.7069041 0.5
+Cl 0.6791842 0.3965479999999999 0.5
+Cl 0.3208158 0.3965479999999999 0.5
+
+ K_POINTS {AUTOMATIC}
+ 1 1 1 0 0 0

@@ -1,0 +1,39 @@
+&CONTROL
+ prefix = "BeH",
+ pseudo_dir = '../pseudo',
+ outdir = "./BeH"
+ /
+ 
+ &SYSTEM
+ ibrav = 1,
+ A = 10,
+ ecutwfc = 50,
+ nat = 2,
+ ntyp = 2,
+ !input_dft = pz
+ /
+ 
+ &ELECTRONS
+ conv_thr = 1e-6,
+ /
+ 
+ ATOMIC_SPECIES
+ H 1.004 H_ONCV_PBE-1.2.upf
+ O 16.008 O_ONCV_PBE-1.2.upf
+ C 12.011 C_ONCV_PBE-1.2.upf
+ N 14.007 N_ONCV_PBE-1.2.upf
+ S 32.065 S_ONCV_PBE-1.2.upf
+ B 10.811 B_ONCV_PBE-1.2.upf
+ P 30.974 P_ONCV_PBE-1.2.upf
+ Na 22.990 Na_ONCV_PBE-1.2.upf
+ Cl 35.453 Cl_ONCV_PBE-1.2.upf
+ Be 9.012 Be_ONCV_PBE-1.2.upf
+ Al 26.982 Al_ONCV_PBE-1.2.upf
+ Li 6.941 Li_ONCV_PBE-1.2.upf
+ 
+ ATOMIC_POSITIONS {crystal}
+Be 0.5 0.5 0.5269654
+H 0.5 0.5 0.3921384
+
+ K_POINTS {AUTOMATIC}
+ 1 1 1 0 0 0

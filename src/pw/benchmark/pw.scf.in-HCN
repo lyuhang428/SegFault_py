@@ -1,0 +1,31 @@
+&CONTROL
+ prefix = "HCN",
+ pseudo_dir = '../pseudo',
+ outdir = "./HCN"
+ /
+ 
+ &SYSTEM
+ ibrav = 1,
+ A = 10,
+ ecutwfc = 50,
+ nat = 3,
+ ntyp = 3,
+ !input_dft = pz
+ /
+ 
+ &ELECTRONS
+ conv_thr = 1e-6,
+ /
+ 
+ATOMIC_SPECIES
+ H 1.004 H_ONCV_PBE-1.2.upf
+ C 12.011 C_ONCV_PBE-1.2.upf
+ N 14.007 N_ONCV_PBE-1.2.upf
+  
+ATOMIC_POSITIONS {crystal}
+C 0.5 0.5 0.4488253
+N 0.5 0.5 0.5664461000000001
+H 0.5 0.5 0.34192540000000005
+
+ K_POINTS {AUTOMATIC}
+ 1 1 1 0 0 0
