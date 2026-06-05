@@ -1,0 +1,750 @@
+cc-pvdz, Cartesian basis functions
+e_convergence 1e-8
+64 cpu cores parallel
+
+
+1-butanol.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -180.2813274662
+Iter    1       energy difference 78.4238097675         energy -101.8575176987
+Iter    2       energy difference 8.4157848916          energy -93.4417328071
+Iter    3       energy difference 4.9741504548          energy -88.4675823523
+Iter    4       energy difference -123.9175343178       energy -212.3851166701
+Iter    5       energy difference 45.7702026628         energy -166.6149140073
+Iter    6       energy difference -40.0944095335        energy -206.7093235409
+Iter    7       energy difference -6.4818058580         energy -213.1911293988
+Iter    8       energy difference -10.0051377962        energy -223.1962671950
+Iter    9       energy difference -7.8761000190         energy -231.0723672140
+Iter   10       energy difference -0.9359177679         energy -232.0082849819
+Iter   11       energy difference -0.1259263410         energy -232.1342113229
+Iter   12       energy difference -0.0306297601         energy -232.1648410829
+Iter   13       energy difference -0.0010671359         energy -232.1659082188
+Iter   14       energy difference -0.0000936275         energy -232.1660018463
+Iter   15       energy difference -0.0000137201         energy -232.1660155664
+Iter   16       energy difference -0.0000008529         energy -232.1660164193
+Iter   17       energy difference -0.0000000250         energy -232.1660164443
+Iter   18       energy difference -0.0000000021         energy -232.1660164464
+There are 125 Cartesian basis functions
+Converged energy: -232.16601644639772
+scf_diis took 96.356437 sec
+
+1-butene.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -120.8631411647
+Iter    1       energy difference 2.4355834430          energy -118.4275577217
+Iter    2       energy difference -4.3121454694         energy -122.7397031911
+Iter    3       energy difference 42.0068596108         energy -80.7328435803
+Iter    4       energy difference -61.6382136315        energy -142.3710572118
+Iter    5       energy difference 12.1618938495         energy -130.2091633623
+Iter    6       energy difference -15.8744512973        energy -146.0836146596
+Iter    7       energy difference -9.1677285355         energy -155.2513431951
+Iter    8       energy difference -0.6287369197         energy -155.8800801148
+Iter    9       energy difference -0.1935696485         energy -156.0736497633
+Iter   10       energy difference -0.0401102004         energy -156.1137599637
+Iter   11       energy difference -0.0043289319         energy -156.1180888957
+Iter   12       energy difference -0.0009350131         energy -156.1190239087
+Iter   13       energy difference -0.0001664791         energy -156.1191903878
+Iter   14       energy difference -0.0000174390         energy -156.1192078268
+Iter   15       energy difference -0.0000007251         energy -156.1192085520
+Iter   16       energy difference -0.0000000666         energy -156.1192086186
+Iter   17       energy difference -0.0000000048         energy -156.1192086234
+There are 100 Cartesian basis functions
+Converged energy: -156.1192086234019
+scf_diis took 39.080278 sec
+
+1-butylamine.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -158.6125226235
+Iter    1       energy difference 72.9451771926         energy -85.6673454309
+Iter    2       energy difference 4.3913496711          energy -81.2759957598
+Iter    3       energy difference 7.5383501799          energy -73.7376455799
+Iter    4       energy difference -114.3609036906       energy -188.0985492705
+Iter    5       energy difference -2.8995363995         energy -190.9980856700
+Iter    6       energy difference -20.8805842771        energy -211.8786699471
+Iter    7       energy difference -0.3710478070         energy -212.2497177541
+Iter    8       energy difference -0.0769251598         energy -212.3266429139
+Iter    9       energy difference -0.0082852577         energy -212.3349281716
+Iter   10       energy difference -0.0005078826         energy -212.3354360542
+Iter   11       energy difference -0.0000451205         energy -212.3354811747
+Iter   12       energy difference -0.0000054812         energy -212.3354866559
+Iter   13       energy difference -0.0000002929         energy -212.3354869488
+Iter   14       energy difference -0.0000000085         energy -212.3354869573
+There are 130 Cartesian basis functions
+Converged energy: -212.33548695732898
+scf_diis took 110.805998 sec
+
+1-hexanol.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -238.7129843047
+Iter    1       energy difference 150.7818644975        energy -87.9311198073
+Iter    2       energy difference -20.0367610869        energy -107.9678808942
+Iter    3       energy difference 95.0883337488         energy -12.8795471454
+Iter    4       energy difference -212.8560910634       energy -225.7356382087
+Iter    5       energy difference -34.4204091238        energy -260.1560473325
+Iter    6       energy difference -15.9140130679        energy -276.0700604005
+Iter    7       energy difference -30.0453878191        energy -306.1154482195
+Iter    8       energy difference -3.8637675456         energy -309.9792157651
+Iter    9       energy difference -0.2368760198         energy -310.2160917849
+Iter   10       energy difference -0.0165372529         energy -310.2326290379
+Iter   11       energy difference -0.0038601323         energy -310.2364891702
+Iter   12       energy difference -0.0005099483         energy -310.2369991186
+Iter   13       energy difference -0.0000727048         energy -310.2370718233
+Iter   14       energy difference -0.0000066261         energy -310.2370784494
+Iter   15       energy difference -0.0000004957         energy -310.2370789451
+Iter   16       energy difference -0.0000000427         energy -310.2370789879
+Iter   17       energy difference -0.0000000030         energy -310.2370789908
+There are 175 Cartesian basis functions
+Converged energy: -310.237078990828
+scf_diis took 353.214047 sec
+
+1-hexene.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -175.7154302649
+Iter    1       energy difference 15.4477174646         energy -160.2677128003
+Iter    2       energy difference 1.7132515558          energy -158.5544612445
+Iter    3       energy difference 21.4514596662         energy -137.1030015782
+Iter    4       energy difference -55.0805865103        energy -192.1835880885
+Iter    5       energy difference 19.6604140520         energy -172.5231740366
+Iter    6       energy difference -54.9431373487        energy -227.4663113853
+Iter    7       energy difference -6.0010577792         energy -233.4673691646
+Iter    8       energy difference -0.6589753566         energy -234.1263445212
+Iter    9       energy difference -0.0484213341         energy -234.1747658553
+Iter   10       energy difference -0.0150817760         energy -234.1898476312
+Iter   11       energy difference -0.0021756700         energy -234.1920233012
+Iter   12       energy difference -0.0003068323         energy -234.1923301336
+Iter   13       energy difference -0.0000478912         energy -234.1923780247
+Iter   14       energy difference -0.0000048482         energy -234.1923828730
+Iter   15       energy difference -0.0000002818         energy -234.1923831548
+Iter   16       energy difference -0.0000000126         energy -234.1923831674
+Iter   17       energy difference -0.0000000009         energy -234.1923831683
+There are 150 Cartesian basis functions
+Converged energy: -234.19238316826042
+scf_diis took 187.272921 sec
+
+1-hexylamine.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -218.8505808050
+Iter    1       energy difference 142.0160547501        energy -76.8345260549
+Iter    2       energy difference -11.0018824575        energy -87.8364085124
+Iter    3       energy difference 132.6721867991        energy 44.8357782867
+Iter    4       energy difference -258.5131304894       energy -213.6773522026
+Iter    5       energy difference -28.2774717240        energy -241.9548239266
+Iter    6       energy difference -19.6567908140        energy -261.6116147406
+Iter    7       energy difference -25.6972832230        energy -287.3088979636
+Iter    8       energy difference -2.8883893088         energy -290.1972872724
+Iter    9       energy difference -0.1944677081         energy -290.3917549805
+Iter   10       energy difference -0.0148471346         energy -290.4066021151
+Iter   11       energy difference -0.0019820107         energy -290.4085841258
+Iter   12       energy difference -0.0002584419         energy -290.4088425678
+Iter   13       energy difference -0.0000237109         energy -290.4088662786
+Iter   14       energy difference -0.0000026903         energy -290.4088689689
+Iter   15       energy difference -0.0000001695         energy -290.4088691384
+Iter   16       energy difference -0.0000000100         energy -290.4088691484
+Iter   17       energy difference -0.0000000008         energy -290.4088691492
+There are 180 Cartesian basis functions
+Converged energy: -290.40886914924437
+scf_diis took 389.221060 sec
+
+1-pentanol.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -209.4244880509
+Iter    1       energy difference 94.7895834824         energy -114.6349045685
+Iter    2       energy difference 6.0846051401          energy -108.5502994285
+Iter    3       energy difference 64.9195668287         energy -43.6307325998
+Iter    4       energy difference -172.4752978251       energy -216.1060304249
+Iter    5       energy difference -25.2947732695        energy -241.4008036944
+Iter    6       energy difference -25.0783473792        energy -266.4791510737
+Iter    7       energy difference -4.4181994985         energy -270.8973505722
+Iter    8       energy difference -0.2617139595         energy -271.1590645317
+Iter    9       energy difference -0.0365837043         energy -271.1956482360
+Iter   10       energy difference -0.0039099766         energy -271.1995582125
+Iter   11       energy difference -0.0005470854         energy -271.2001052980
+Iter   12       energy difference -0.0000550925         energy -271.2001603905
+Iter   13       energy difference -0.0000028038         energy -271.2001631943
+Iter   14       energy difference -0.0000003137         energy -271.2001635080
+Iter   15       energy difference -0.0000000277         energy -271.2001635356
+Iter   16       energy difference -0.0000000010         energy -271.2001635367
+There are 150 Cartesian basis functions
+Converged energy: -271.20016353666483
+scf_diis took 195.171800 sec
+
+1-pentene.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -149.3561061938
+Iter    1       energy difference 5.7013270554          energy -143.6547791384
+Iter    2       energy difference 8.4112219861          energy -135.2435571523
+Iter    3       energy difference -2.5149699805         energy -137.7585271327
+Iter    4       energy difference -44.4473460300        energy -182.2058731627
+Iter    5       energy difference -11.6350685052        energy -193.8409416679
+Iter    6       energy difference -1.1699985611         energy -195.0109402290
+Iter    7       energy difference -0.1141816154         energy -195.1251218445
+Iter    8       energy difference -0.0264353071         energy -195.1515571516
+Iter    9       energy difference -0.0040441590         energy -195.1556013106
+Iter   10       energy difference -0.0004431465         energy -195.1560444571
+Iter   11       energy difference -0.0000917272         energy -195.1561361842
+Iter   12       energy difference -0.0000165737         energy -195.1561527580
+Iter   13       energy difference -0.0000008286         energy -195.1561535865
+Iter   14       energy difference -0.0000000365         energy -195.1561536230
+Iter   15       energy difference -0.0000000026         energy -195.1561536257
+There are 125 Cartesian basis functions
+Converged energy: -195.15615362568553
+scf_diis took 92.765139 sec
+
+1-pentylamine.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -189.1114645475
+Iter    1       energy difference 107.1825859402        energy -81.9288786073
+Iter    2       energy difference -14.8394423969        energy -96.7683210042
+Iter    3       energy difference 87.2792529290         energy -9.4890680752
+Iter    4       energy difference -210.6205170113       energy -220.1095850865
+Iter    5       energy difference 6.4816866694          energy -213.6278984171
+Iter    6       energy difference -36.6213090321        energy -250.2492074492
+Iter    7       energy difference -1.0079477670         energy -251.2571552162
+Iter    8       energy difference -0.1054536654         energy -251.3626088816
+Iter    9       energy difference -0.0082816603         energy -251.3708905419
+Iter   10       energy difference -0.0006684831         energy -251.3715590251
+Iter   11       energy difference -0.0000999449         energy -251.3716589699
+Iter   12       energy difference -0.0000098969         energy -251.3716688668
+Iter   13       energy difference -0.0000006162         energy -251.3716694830
+Iter   14       energy difference -0.0000000648         energy -251.3716695478
+Iter   15       energy difference -0.0000000040         energy -251.3716695518
+There are 155 Cartesian basis functions
+Converged energy: -251.37166955182659
+scf_diis took 219.964510 sec
+
+1-propanol.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -155.0575031914
+Iter    1       energy difference 37.0634361774         energy -117.9940670140
+Iter    2       energy difference -18.3970547237        energy -136.3911217376
+Iter    3       energy difference 21.4170318875         energy -114.9740898501
+Iter    4       energy difference -68.1336109234        energy -183.1077007735
+Iter    5       energy difference 5.5231106771          energy -177.5845900964
+Iter    6       energy difference -14.2841130599        energy -191.8687031563
+Iter    7       energy difference -1.0110216436         energy -192.8797248000
+Iter    8       energy difference -0.2173671125         energy -193.0970919125
+Iter    9       energy difference -0.0299728756         energy -193.1270647880
+Iter   10       energy difference -0.0022294528         energy -193.1292942408
+Iter   11       energy difference -0.0001285857         energy -193.1294228265
+Iter   12       energy difference -0.0000210963         energy -193.1294439228
+Iter   13       energy difference -0.0000015278         energy -193.1294454506
+Iter   14       energy difference -0.0000001255         energy -193.1294455761
+Iter   15       energy difference -0.0000000059         energy -193.1294455820
+There are 100 Cartesian basis functions
+Converged energy: -193.129445582016
+scf_diis took 35.912599 sec
+
+1-propene.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -93.5550384666
+Iter    1       energy difference -5.3264035390         energy -98.8814420056
+Iter    2       energy difference 0.0997143121          energy -98.7817276935
+Iter    3       energy difference 19.6544691808         energy -79.1272585127
+Iter    4       energy difference -25.3182957946        energy -104.4455543074
+Iter    5       energy difference -9.1789830326         energy -113.6245373400
+Iter    6       energy difference -3.2480433029         energy -116.8725806429
+Iter    7       energy difference -0.1617598757         energy -117.0343405186
+Iter    8       energy difference -0.0381851199         energy -117.0725256385
+Iter    9       energy difference -0.0081914067         energy -117.0807170452
+Iter   10       energy difference -0.0011550876         energy -117.0818721327
+Iter   11       energy difference -0.0002518812         energy -117.0821240140
+Iter   12       energy difference -0.0000262998         energy -117.0821503137
+Iter   13       energy difference -0.0000004428         energy -117.0821507565
+Iter   14       energy difference -0.0000000212         energy -117.0821507777
+Iter   15       energy difference -0.0000000010         energy -117.0821507788
+There are 75 Cartesian basis functions
+Converged energy: -117.08215077878221
+scf_diis took 11.814476 sec
+
+1-propylamine.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -134.1030352253
+Iter    1       energy difference 32.2487878972         energy -101.8542473282
+Iter    2       energy difference -14.3366420769        energy -116.1908894051
+Iter    3       energy difference 16.2570875787         energy -99.9338018264
+Iter    4       energy difference -61.8542198751        energy -161.7880217015
+Iter    5       energy difference 4.2577527577          energy -157.5302689438
+Iter    6       energy difference -14.9395583777        energy -172.4698273215
+Iter    7       energy difference -0.7029097272         energy -173.1727370488
+Iter    8       energy difference -0.1068305906         energy -173.2795676393
+Iter    9       energy difference -0.0184806635         energy -173.2980483028
+Iter   10       energy difference -0.0007413085         energy -173.2987896113
+Iter   11       energy difference -0.0000674708         energy -173.2988570821
+Iter   12       energy difference -0.0000058332         energy -173.2988629153
+Iter   13       energy difference -0.0000002546         energy -173.2988631699
+Iter   14       energy difference -0.0000000272         energy -173.2988631971
+Iter   15       energy difference -0.0000000038         energy -173.2988632009
+There are 105 Cartesian basis functions
+Converged energy: -173.29886320089872
+scf_diis took 48.243879 sec
+
+ammonia.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -47.3147605848
+Iter    1       energy difference -3.5820091583         energy -50.8967697431
+Iter    2       energy difference -2.5895962816         energy -53.4863660247
+Iter    3       energy difference -0.4819365140         energy -53.9683025388
+Iter    4       energy difference -2.1282192049         energy -56.0965217437
+Iter    5       energy difference -0.0955867231         energy -56.1921084668
+Iter    6       energy difference -0.0031458022         energy -56.1952542689
+Iter    7       energy difference -0.0002299385         energy -56.1954842074
+Iter    8       energy difference -0.0000335279         energy -56.1955177352
+Iter    9       energy difference -0.0000012990         energy -56.1955190342
+Iter   10       energy difference -0.0000000084         energy -56.1955190426
+There are 30 Cartesian basis functions
+Converged energy: -56.19551904262796
+scf_diis took 0.632635 sec
+
+butane.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -121.4506709697
+Iter    1       energy difference -2.2051014454         energy -123.6557724151
+Iter    2       energy difference 13.6509306428         energy -110.0048417723
+Iter    3       energy difference -11.3891126403        energy -121.3939544126
+Iter    4       energy difference -19.9404959309        energy -141.3344503435
+Iter    5       energy difference -15.3732798429        energy -156.7077301864
+Iter    6       energy difference -0.5036477980         energy -157.2113779844
+Iter    7       energy difference -0.0911971720         energy -157.3025751564
+Iter    8       energy difference -0.0054572409         energy -157.3080323972
+Iter    9       energy difference -0.0002474561         energy -157.3082798533
+Iter   10       energy difference -0.0000258211         energy -157.3083056745
+Iter   11       energy difference -0.0000020228         energy -157.3083076972
+Iter   12       energy difference -0.0000001508         energy -157.3083078481
+Iter   13       energy difference -0.0000000065         energy -157.3083078546
+There are 110 Cartesian basis functions
+Converged energy: -157.30830785458218
+scf_diis took 55.672531 sec
+
+carbon_dioxide.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -171.2087451931
+Iter    1       energy difference -0.4021300705         energy -171.6108752636
+Iter    2       energy difference -7.5765621124         energy -179.1874373760
+Iter    3       energy difference 5.8104324062          energy -173.3770049698
+Iter    4       energy difference -13.1425317104        energy -186.5195366802
+Iter    5       energy difference -0.9002616162         energy -187.4197982964
+Iter    6       energy difference -0.0402595692         energy -187.4600578657
+Iter    7       energy difference -0.0003951263         energy -187.4604529920
+Iter    8       energy difference -0.0000618051         energy -187.4605147970
+Iter    9       energy difference -0.0000024147         energy -187.4605172117
+Iter   10       energy difference -0.0000006023         energy -187.4605178140
+Iter   11       energy difference -0.0000001128         energy -187.4605179268
+Iter   12       energy difference -0.0000000006         energy -187.4605179274
+There are 45 Cartesian basis functions
+Converged energy: -187.46051792741537
+scf_diis took 2.485237 sec
+
+carbon_monoxide.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -102.2395080323
+Iter    1       energy difference 4.7576043603          energy -97.4819036720
+Iter    2       energy difference -4.2237840493         energy -101.7056877213
+Iter    3       energy difference 5.3784244329          energy -96.3272632884
+Iter    4       energy difference -14.9450649297        energy -111.2723282181
+Iter    5       energy difference -1.0343732308         energy -112.3067014489
+Iter    6       energy difference -0.2908006734         energy -112.5975021223
+Iter    7       energy difference -0.0219387421         energy -112.6194408643
+Iter    8       energy difference -0.0008966390         energy -112.6203375033
+Iter    9       energy difference -0.0000786596         energy -112.6204161630
+Iter   10       energy difference -0.0000365173         energy -112.6204526803
+Iter   11       energy difference -0.0000009964         energy -112.6204536768
+Iter   12       energy difference -0.0000000314         energy -112.6204537082
+Iter   13       energy difference -0.0000000012         energy -112.6204537094
+There are 30 Cartesian basis functions
+Converged energy: -112.62045370935036
+scf_diis took 0.761816 sec
+
+cyclobutane.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -124.4118599258
+Iter    1       energy difference -5.0811142084         energy -129.4929741342
+Iter    2       energy difference -11.4026129013        energy -140.8955870355
+Iter    3       energy difference 3.3403880006          energy -137.5551990348
+Iter    4       energy difference -17.0927011121        energy -154.6479001469
+Iter    5       energy difference -1.2245574556         energy -155.8724576025
+Iter    6       energy difference -0.2301655963         energy -156.1026231988
+Iter    7       energy difference -0.0012620341         energy -156.1038852330
+Iter    8       energy difference -0.0001685175         energy -156.1040537505
+Iter    9       energy difference -0.0000104985         energy -156.1040642490
+Iter   10       energy difference -0.0000001710         energy -156.1040644200
+Iter   11       energy difference -0.0000000021         energy -156.1040644221
+There are 100 Cartesian basis functions
+Converged energy: -156.1040644220544
+scf_diis took 38.549930 sec
+
+cyclohexane.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -186.0481811952
+Iter    1       energy difference -2.5946695931         energy -188.6428507882
+Iter    2       energy difference -14.5766255694        energy -203.2194763577
+Iter    3       energy difference 5.8911188279          energy -197.3283575298
+Iter    4       energy difference -35.2539950907        energy -232.5823526205
+Iter    5       energy difference -1.3683209398         energy -233.9506735603
+Iter    6       energy difference -0.2589922937         energy -234.2096658540
+Iter    7       energy difference -0.0140609466         energy -234.2237268006
+Iter    8       energy difference -0.0004903306         energy -234.2242171312
+Iter    9       energy difference -0.0000400287         energy -234.2242571599
+Iter   10       energy difference -0.0000003698         energy -234.2242575297
+Iter   11       energy difference -0.0000000071         energy -234.2242575368
+There are 150 Cartesian basis functions
+Converged energy: -234.22425753682012
+scf_diis took 192.254076 sec
+
+cyclopentane.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -154.7685208691
+Iter    1       energy difference -4.3334175866         energy -159.1019384556
+Iter    2       energy difference -11.8629999405        energy -170.9649383962
+Iter    3       energy difference 3.9752778545          energy -166.9896605417
+Iter    4       energy difference -26.5352473254        energy -193.5249078671
+Iter    5       energy difference -1.3546191057         energy -194.8795269728
+Iter    6       energy difference -0.2865477902         energy -195.1660747630
+Iter    7       energy difference -0.0091493275         energy -195.1752240905
+Iter    8       energy difference -0.0003529150         energy -195.1755770055
+Iter    9       energy difference -0.0000351279         energy -195.1756121334
+Iter   10       energy difference -0.0000042092         energy -195.1756163427
+Iter   11       energy difference -0.0000000805         energy -195.1756164231
+Iter   12       energy difference -0.0000000033         energy -195.1756164264
+There are 125 Cartesian basis functions
+Converged energy: -195.17561642644725
+scf_diis took 91.709966 sec
+
+cyclopropane.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -93.8261634689
+Iter    1       energy difference -5.4826529838         energy -99.3088164527
+Iter    2       energy difference -9.6524998680         energy -108.9613163208
+Iter    3       energy difference 2.3437094924          energy -106.6176068283
+Iter    4       energy difference -9.6331278676         energy -116.2507346959
+Iter    5       energy difference -0.7395015089         energy -116.9902362048
+Iter    6       energy difference -0.0769615406         energy -117.0671977454
+Iter    7       energy difference -0.0003434438         energy -117.0675411892
+Iter    8       energy difference -0.0000237658         energy -117.0675649550
+Iter    9       energy difference -0.0000007550         energy -117.0675657099
+Iter   10       energy difference -0.0000000167         energy -117.0675657266
+Iter   11       energy difference -0.0000000003         energy -117.0675657269
+There are 75 Cartesian basis functions
+Converged energy: -117.06756572691819
+scf_diis took 12.852455 sec
+
+ethane.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -62.1534157295
+Iter    1       energy difference -6.4110413516         energy -68.5644570811
+Iter    2       energy difference -5.7480841309         energy -74.3125412119
+Iter    3       energy difference -1.1635465432         energy -75.4760877552
+Iter    4       energy difference -3.6013354134         energy -79.0774231686
+Iter    5       energy difference -0.1519948777         energy -79.2294180463
+Iter    6       energy difference -0.0053568891         energy -79.2347749355
+Iter    7       energy difference -0.0000164700         energy -79.2347914055
+Iter    8       energy difference -0.0000011376         energy -79.2347925431
+Iter    9       energy difference -0.0000000253         energy -79.2347925684
+Iter   10       energy difference -0.0000000005         energy -79.2347925689
+There are 60 Cartesian basis functions
+Converged energy: -79.23479256894251
+scf_diis took 5.400898 sec
+
+ethanol.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -128.5808020452
+Iter    1       energy difference 6.8758104622          energy -121.7049915830
+Iter    2       energy difference -1.4576137013         energy -123.1626052843
+Iter    3       energy difference 23.4951720145         energy -99.6674332698
+Iter    4       energy difference -43.6782186302        energy -143.3456519000
+Iter    5       energy difference -8.9436915337         energy -152.2893434337
+Iter    6       energy difference -1.5019551660         energy -153.7912985997
+Iter    7       energy difference -0.2469500147         energy -154.0382486144
+Iter    8       energy difference -0.0467066286         energy -154.0849552430
+Iter    9       energy difference -0.0059277908         energy -154.0908830338
+Iter   10       energy difference -0.0005641798         energy -154.0914472136
+Iter   11       energy difference -0.0000461390         energy -154.0914933526
+Iter   12       energy difference -0.0000013033         energy -154.0914946559
+Iter   13       energy difference -0.0000000966         energy -154.0914947525
+Iter   14       energy difference -0.0000000052         energy -154.0914947576
+There are 75 Cartesian basis functions
+Converged energy: -154.0914947576369
+scf_diis took 13.171072 sec
+
+ethene.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -64.6908270318
+Iter    1       energy difference -4.8894712273         energy -69.5802982591
+Iter    2       energy difference -5.4059758496         energy -74.9862741087
+Iter    3       energy difference -1.8367949280         energy -76.8230690367
+Iter    4       energy difference -1.1987427827         energy -78.0218118194
+Iter    5       energy difference -0.0174041600         energy -78.0392159795
+Iter    6       energy difference -0.0007210530         energy -78.0399370325
+Iter    7       energy difference -0.0000172985         energy -78.0399543310
+Iter    8       energy difference -0.0000004220         energy -78.0399547530
+Iter    9       energy difference -0.0000000068         energy -78.0399547598
+There are 50 Cartesian basis functions
+Converged energy: -78.03995475978675
+scf_diis took 3.192671 sec
+
+ethylamine.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -107.6325767261
+Iter    1       energy difference 2.2412531807          energy -105.3913235455
+Iter    2       energy difference 0.7585758312          energy -104.6327477143
+Iter    3       energy difference 21.0057543785         energy -83.6269933358
+Iter    4       energy difference -41.1787458254        energy -124.8057391612
+Iter    5       energy difference -5.4919894686         energy -130.2977286298
+Iter    6       energy difference -3.0876074912         energy -133.3853361210
+Iter    7       energy difference -0.7638797782         energy -134.1492158992
+Iter    8       energy difference -0.0903161182         energy -134.2395320174
+Iter    9       energy difference -0.0198643735         energy -134.2593963909
+Iter   10       energy difference -0.0018306792         energy -134.2612270702
+Iter   11       energy difference -0.0001227674         energy -134.2613498376
+Iter   12       energy difference -0.0000112292         energy -134.2613610668
+Iter   13       energy difference -0.0000004465         energy -134.2613615133
+Iter   14       energy difference -0.0000000402         energy -134.2613615535
+Iter   15       energy difference -0.0000000037         energy -134.2613615572
+There are 80 Cartesian basis functions
+Converged energy: -134.26136155717774
+scf_diis took 16.972886 sec
+
+furan.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -194.6288052766
+Iter    1       energy difference 15.0537162554         energy -179.5750890211
+Iter    2       energy difference 0.1099970557          energy -179.4650919654
+Iter    3       energy difference 17.8863975701         energy -161.5786943953
+Iter    4       energy difference -45.4543173877        energy -207.0330117830
+Iter    5       energy difference -21.0683186287        energy -228.1013304117
+Iter    6       energy difference -0.4438597081         energy -228.5451901198
+Iter    7       energy difference -0.0767301229         energy -228.6219202427
+Iter    8       energy difference -0.0194536296         energy -228.6413738723
+Iter    9       energy difference -0.0005280450         energy -228.6419019173
+Iter   10       energy difference -0.0002010130         energy -228.6421029303
+Iter   11       energy difference -0.0000811678         energy -228.6421840980
+Iter   12       energy difference -0.0000053457         energy -228.6421894437
+Iter   13       energy difference -0.0000000444         energy -228.6421894881
+Iter   14       energy difference -0.0000000028         energy -228.6421894909
+There are 95 Cartesian basis functions
+Converged energy: -228.64218949085364
+scf_diis took 35.161369 sec
+
+hexane.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -174.3955683382
+Iter    1       energy difference 34.4869444105         energy -139.9086239277
+Iter    2       energy difference 5.8898131090          energy -134.0188108187
+Iter    3       energy difference 38.7066093435         energy -95.3122014751
+Iter    4       energy difference -18.4660845860        energy -113.7782860611
+Iter    5       energy difference -59.3924824939        energy -173.1707685550
+Iter    6       energy difference -30.3484830720        energy -203.5192516271
+Iter    7       energy difference -0.0219618903         energy -203.5412135174
+Iter    8       energy difference -31.6069771356        energy -235.1481906530
+Iter    9       energy difference -0.2052416352         energy -235.3534322882
+Iter   10       energy difference -0.0280162860         energy -235.3814485742
+Iter   11       energy difference -0.0012248359         energy -235.3826734101
+Iter   12       energy difference -0.0001382045         energy -235.3828116146
+Iter   13       energy difference -0.0000098026         energy -235.3828214171
+Iter   14       energy difference -0.0000005163         energy -235.3828219334
+Iter   15       energy difference -0.0000000520         energy -235.3828219854
+Iter   16       energy difference -0.0000000023         energy -235.3828219877
+There are 160 Cartesian basis functions
+Converged energy: -235.38282198769343
+scf_diis took 252.264091 sec
+
+hydrogen_peroxide.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -138.2129780475
+Iter    1       energy difference -4.2644684038         energy -142.4774464513
+Iter    2       energy difference -5.5856871359         energy -148.0631335872
+Iter    3       energy difference -1.8722047007         energy -149.9353382880
+Iter    4       energy difference -0.8425898170         energy -150.7779281049
+Iter    5       energy difference -0.0046337201         energy -150.7825618250
+Iter    6       energy difference -0.0003405218         energy -150.7829023468
+Iter    7       energy difference -0.0000300789         energy -150.7829324257
+Iter    8       energy difference -0.0000046670         energy -150.7829370927
+Iter    9       energy difference -0.0000011649         energy -150.7829382575
+Iter   10       energy difference -0.0000001600         energy -150.7829384175
+Iter   11       energy difference -0.0000000146         energy -150.7829384321
+Iter   12       energy difference -0.0000000026         energy -150.7829384347
+There are 40 Cartesian basis functions
+Converged energy: -150.78293843467773
+scf_diis took 1.643334 sec
+
+methane.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -31.3456202541
+Iter    1       energy difference -4.5565662447         energy -35.9021864988
+Iter    2       energy difference -2.5692671108         energy -38.4714536096
+Iter    3       energy difference -1.3100071615         energy -39.7814607711
+Iter    4       energy difference -0.4146942121         energy -40.1961549832
+Iter    5       energy difference -0.0025790291         energy -40.1987340123
+Iter    6       energy difference -0.0000392081         energy -40.1987732203
+Iter    7       energy difference -0.0000001718         energy -40.1987733921
+Iter    8       energy difference -0.0000000003         energy -40.1987733924
+There are 35 Cartesian basis functions
+Converged energy: -40.19877339240676
+scf_diis took 0.945244 sec
+
+methanol.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -99.0485018561
+Iter    1       energy difference 2.0376926412          energy -97.0108092149
+Iter    2       energy difference -4.0107134085         energy -101.0215226234
+Iter    3       energy difference 5.6624918986          energy -95.3590307248
+Iter    4       energy difference -12.5304190882        energy -107.8894498130
+Iter    5       energy difference -5.3295175667         energy -113.2189673796
+Iter    6       energy difference -1.1548835299         energy -114.3738509095
+Iter    7       energy difference -0.5960221313         energy -114.9698730409
+Iter    8       energy difference -0.0747980768         energy -115.0446711177
+Iter    9       energy difference -0.0036256879         energy -115.0482968056
+Iter   10       energy difference -0.0001730850         energy -115.0484698906
+Iter   11       energy difference -0.0000232023         energy -115.0484930930
+Iter   12       energy difference -0.0000007489         energy -115.0484938419
+Iter   13       energy difference -0.0000000215         energy -115.0484938634
+Iter   14       energy difference -0.0000000010         energy -115.0484938644
+There are 50 Cartesian basis functions
+Converged energy: -115.04849386439946
+scf_diis took 3.003016 sec
+
+methylamine.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -78.3384687406
+Iter    1       energy difference -3.0693079922         energy -81.4077767329
+Iter    2       energy difference -4.4475219191         energy -85.8552986520
+Iter    3       energy difference 3.5957343280          energy -82.2595643240
+Iter    4       energy difference -11.1723118028        energy -93.4318761269
+Iter    5       energy difference -1.4809648198         energy -94.9128409467
+Iter    6       energy difference -0.2816778629         energy -95.1945188096
+Iter    7       energy difference -0.0247872019         energy -95.2193060115
+Iter    8       energy difference -0.0014718224         energy -95.2207778339
+Iter    9       energy difference -0.0001695960         energy -95.2209474299
+Iter   10       energy difference -0.0000082837         energy -95.2209557136
+Iter   11       energy difference -0.0000002547         energy -95.2209559683
+Iter   12       energy difference -0.0000000199         energy -95.2209559883
+Iter   13       energy difference -0.0000000013         energy -95.2209559895
+There are 55 Cartesian basis functions
+Converged energy: -95.22095598954658
+scf_diis took 4.016299 sec
+
+oxirane.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -131.4938345642
+Iter    1       energy difference 3.5496034165          energy -127.9442311477
+Iter    2       energy difference -5.5069875056         energy -133.4512186533
+Iter    3       energy difference 2.4944047936          energy -130.9568138597
+Iter    4       energy difference -14.8410481347        energy -145.7978619945
+Iter    5       energy difference -3.6643307583         energy -149.4621927527
+Iter    6       energy difference -2.8309959093         energy -152.2931886620
+Iter    7       energy difference -0.5455091260         energy -152.8386977880
+Iter    8       energy difference -0.0325718609         energy -152.8712696489
+Iter    9       energy difference -0.0032456282         energy -152.8745152771
+Iter   10       energy difference -0.0001166982         energy -152.8746319753
+Iter   11       energy difference -0.0000199005         energy -152.8746518758
+Iter   12       energy difference -0.0000006485         energy -152.8746525243
+Iter   13       energy difference -0.0000000233         energy -152.8746525476
+Iter   14       energy difference -0.0000000013         energy -152.8746525489
+There are 65 Cartesian basis functions
+Converged energy: -152.8746525489045
+scf_diis took 7.919546 sec
+
+pentane.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -146.7496000060
+Iter    1       energy difference 40.5734775074         energy -106.1761224985
+Iter    2       energy difference -15.6525058041        energy -121.8286283026
+Iter    3       energy difference 44.0311806152         energy -77.7974476874
+Iter    4       energy difference -96.6254648575        energy -174.4229125450
+Iter    5       energy difference 11.6059369418         energy -162.8169756031
+Iter    6       energy difference -16.4295648432        energy -179.2465404463
+Iter    7       energy difference -16.5087874669        energy -195.7553279132
+Iter    8       energy difference -0.5055619677         energy -196.2608898809
+Iter    9       energy difference -0.0765998486         energy -196.3374897295
+Iter   10       energy difference -0.0074176839         energy -196.3449074134
+Iter   11       energy difference -0.0005951931         energy -196.3455026065
+Iter   12       energy difference -0.0000441783         energy -196.3455467848
+Iter   13       energy difference -0.0000034466         energy -196.3455502314
+Iter   14       energy difference -0.0000002711         energy -196.3455505025
+Iter   15       energy difference -0.0000000153         energy -196.3455505178
+Iter   16       energy difference -0.0000000013         energy -196.3455505192
+There are 135 Cartesian basis functions
+Converged energy: -196.3455505191544
+scf_diis took 124.540576 sec
+
+propane.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -92.3034082435
+Iter    1       energy difference -7.8413593627         energy -100.1447676062
+Iter    2       energy difference -4.4322705819         energy -104.5770381881
+Iter    3       energy difference -0.0774422958         energy -104.6544804839
+Iter    4       energy difference -11.8524769701        energy -116.5069574540
+Iter    5       energy difference -1.4920655795         energy -117.9990230334
+Iter    6       energy difference -0.2549422324         energy -118.2539652659
+Iter    7       energy difference -0.0173791490         energy -118.2713444149
+Iter    8       energy difference -0.0010107641         energy -118.2723551790
+Iter    9       energy difference -0.0000707406         energy -118.2724259196
+Iter   10       energy difference -0.0000047879         energy -118.2724307075
+Iter   11       energy difference -0.0000001607         energy -118.2724308683
+Iter   12       energy difference -0.0000000042         energy -118.2724308724
+There are 85 Cartesian basis functions
+Converged energy: -118.2724308724259
+scf_diis took 18.332309 sec
+
+pyridine.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -206.8882539578
+Iter    1       energy difference 9.1629080192          energy -197.7253459386
+Iter    2       energy difference 26.2609030349         energy -171.4644429036
+Iter    3       energy difference 3.1840660550          energy -168.2803768486
+Iter    4       energy difference -63.1079029080        energy -231.3882797567
+Iter    5       energy difference -6.3331331207         energy -237.7214128774
+Iter    6       energy difference -8.6433739905         energy -246.3647868679
+Iter    7       energy difference -0.3178576636         energy -246.6826445315
+Iter    8       energy difference -0.0251115071         energy -246.7077560386
+Iter    9       energy difference -0.0064178523         energy -246.7141738909
+Iter   10       energy difference -0.0003749646         energy -246.7145488555
+Iter   11       energy difference -0.0000338777         energy -246.7145827332
+Iter   12       energy difference -0.0000116632         energy -246.7145943965
+Iter   13       energy difference -0.0000019376         energy -246.7145963341
+Iter   14       energy difference -0.0000005121         energy -246.7145968462
+Iter   15       energy difference -0.0000000479         energy -246.7145968941
+Iter   16       energy difference -0.0000000022         energy -246.7145968963
+There are 115 Cartesian basis functions
+Converged energy: -246.7145968962972
+scf_diis took 72.489318 sec
+
+pyrrole.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -174.3512936926
+Iter    1       energy difference 8.0888361470          energy -166.2624575456
+Iter    2       energy difference 1.7017667911          energy -164.5606907545
+Iter    3       energy difference 16.3384696532         energy -148.2222211014
+Iter    4       energy difference -43.4534550690        energy -191.6756761703
+Iter    5       energy difference -14.1735567835        energy -205.8492329539
+Iter    6       energy difference -2.2627401705         energy -208.1119731244
+Iter    7       energy difference -0.5105618842         energy -208.6225350086
+Iter    8       energy difference -0.1926614486         energy -208.8151964571
+Iter    9       energy difference -0.0127037654         energy -208.8279002226
+Iter   10       energy difference -0.0005894369         energy -208.8284896594
+Iter   11       energy difference -0.0002558668         energy -208.8287455262
+Iter   12       energy difference -0.0000300076         energy -208.8287755338
+Iter   13       energy difference -0.0000009215         energy -208.8287764553
+Iter   14       energy difference -0.0000001609         energy -208.8287766162
+Iter   15       energy difference -0.0000000233         energy -208.8287766395
+Iter   16       energy difference -0.0000000006         energy -208.8287766401
+There are 100 Cartesian basis functions
+Converged energy: -208.8287766401076
+scf_diis took 40.915752 sec
+
+water.xyz
+Start SCF iteration
+Iter    0       energy difference -inf                  energy -67.8016507076
+Iter    1       energy difference -1.7270012165         energy -69.5286519241
+Iter    2       energy difference -3.5956714944         energy -73.1243234185
+Iter    3       energy difference -0.1802946797         energy -73.3046180982
+Iter    4       energy difference -2.6040256904         energy -75.9086437886
+Iter    5       energy difference -0.1140362915         energy -76.0226800801
+Iter    6       energy difference -0.0035076849         energy -76.0261877650
+Iter    7       energy difference -0.0001354063         energy -76.0263231713
+Iter    8       energy difference -0.0000135814         energy -76.0263367528
+Iter    9       energy difference -0.0000004091         energy -76.0263371619
+Iter   10       energy difference -0.0000000181         energy -76.0263371800
+Iter   11       energy difference -0.0000000002         energy -76.0263371802
+There are 25 Cartesian basis functions
+Converged energy: -76.02633718019376
+scf_diis took 0.438969 sec
