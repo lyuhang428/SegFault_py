@@ -6,3 +6,5 @@ This is plane wave DFT code, features:
 - sg15 ONCV pseudo potential only
 - PBE and PZ functional only
 - it reads .upf and .cif only
+
+Benchmarked against Quantum Espresso, see `benchmark`
