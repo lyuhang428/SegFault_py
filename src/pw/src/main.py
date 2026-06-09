@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import numpy as np
+from warnings            import warn
 from collections         import Counter
 from scipy.linalg        import block_diag
 from scipy.integrate     import simpson
@@ -33,6 +34,7 @@ num2sym = {
 
 
 # 2 3 5 #7
+# 90: [1,2,1,0] means 90 = 2^1 * 3^2 * 5^1
 FFT_GOOD_NUMBER = {
 1  : [0, 0, 0, 0], 2  : [1, 0, 0, 0], 3  : [0, 1, 0, 0], 4  : [2, 0, 0, 0], 5  : [0, 0, 1, 0],
 6  : [1, 1, 0, 0], 8  : [3, 0, 0, 0], 9  : [0, 2, 0, 0], 10 : [1, 0, 1, 0], 12 : [2, 1, 0, 0],
@@ -48,6 +50,7 @@ FFT_GOOD_NUMBER = {
 
 
 def gram_schmidt(nrow:int, ncol:int):
+    # qr decomposition seems to be more stable
     uG = np.random.randn(nrow, ncol) + 1j * np.random.randn(nrow, ncol)
     uG[:,0] /= np.sqrt(np.real(np.sum((np.conjugate(uG[:,0]) * uG[:,0]))))
     
@@ -62,6 +65,7 @@ def gram_schmidt(nrow:int, ncol:int):
 
 
 def real_spherical_harmonics(l:int, m:int, xyz:np.ndarray) -> np.ndarray:
+    # xyz : np.ndarray (n, 3) make sure these vectors are normalized!
     assert l >= 0 and -l <= m <= l
     ylm = np.zeros((len(xyz)), dtype=float)
 
@@ -96,9 +100,23 @@ def real_spherical_harmonics(l:int, m:int, xyz:np.ndarray) -> np.ndarray:
 r'''
 orthorhombic box only, closed-shell and spin-unpolarized system only, k=(0,0,0) only but use complex wave function
 
+.cif file uses Angstrom, converted to Bohr 
+
+.upf file uses Ry, converted to Hartree
+
+radial grid in sg15 ONCV is uniform
+
 plane wave basis convention: |G> = 1/\sqrt{V} e^{i G \cdot r}
 
-sg15 ONCV with PBE
+numpy fft normalization convention used
+
+combined with plane wave normalization convention, extra normalization factor \sqrt{V}/N1N2N3 for fft and N1N2N3/\sqrt{V} for ifft
+
+projector radial function \beta is stored as r\beta in .upf
+
+RHOATOM in .upf is stored as 4\pi r^2 \rho
+
+sg15 ONCV uses PBE
 '''
 class SuperCell:
     def __init__(self, cif:str, ecutwfc:float, ppdir:str=None, ecutrho:float=None):
@@ -775,9 +793,13 @@ class LinOpH(LinearOperator):
 
 
 
-
-
-def scf(cell:SuperCell, e_conv_thr:float=1e-6, maxiter:int=500, mixing:float=0.8, xc:str='PBE'):
+def scf(cell:SuperCell, 
+        e_conv_thr:float=1e-6, 
+        maxiter:int=500, 
+        mixing:float=0.8, 
+        q02:float=1., 
+        nbuffer:int=8, 
+        xc:str='PBE'):
     # pp_loc real, computed once and cached
     vloc_real = cell.compute_vloc_real()
     
@@ -813,6 +835,14 @@ def scf(cell:SuperCell, e_conv_thr:float=1e-6, maxiter:int=500, mixing:float=0.8
     preconditioner = lambda v: diag_val[:,None] * v
     M = LinearOperator(shape=(cell.nGvec, cell.nGvec), dtype=np.dtype(complex), matvec=preconditioner, matmat=preconditioner)
 
+    # Kerker and DIIS
+    kerker = np.zeros((cell.nGvec), dtype=float)
+    kerker[1:] = cell.G2[1:] / (cell.G2[1:] + q02)
+    kerker[0] = 0.
+    eden_history = []
+    R_history = []
+    fft_grid = np.zeros((cell.nx, cell.ny, cell.nz), dtype=complex)
+
 
     ##############
     # GAME START #
@@ -822,17 +852,51 @@ def scf(cell:SuperCell, e_conv_thr:float=1e-6, maxiter:int=500, mixing:float=0.8
     counter  = 0
     while abs(e_diff) >= e_conv_thr*2:
         counter += 1
+
         # update uG and eden
         linop.vlocal_real = vloc_real + vxc + vHa
         w, uG = lobpcg(linop, X=uG, M=M, largest=False, maxiter=200, tol=1e-8) # uG updated
         # w, uG = eigsh(linop, k=cell.nbnd, which='SA', v0=uG[:,0], tol=1e-8, maxiter=100)
         np.testing.assert_allclose(uG.conj().T @ uG, np.identity(cell.nbnd, dtype=complex), atol=1e-12) # check orthonormality
         uG[~mask,:] = 0.+0j
-        eden = (1 - mixing) * cell.compute_eden_real(uG) + mixing * eden # linear mixing
+
+        # Kerker preconditioner + DIIS
+        eden_in_G = np.sqrt(cell.V) / cell.N3 * np.fft.fftn(eden)[cell.id_cut] # (nGvec,)
+        eden_out_G = np.sqrt(cell.V) / cell.N3 * np.fft.fftn(cell.compute_eden_real(uG))[cell.id_cut] # (nGvec,)
+        R_G = kerker * (eden_out_G - eden_in_G)
+        if len(eden_history) >= nbuffer:
+            eden_history.pop(0)
+            R_history.pop(0)
+        eden_history.append(eden_in_G)
+        R_history.append(R_G)
+        if counter <= 1:
+            eden_G = eden_in_G + mixing * R_G # Kerker only
+            eden_G[0] = cell.nve / np.sqrt(cell.V)
+            fft_grid[cell.id_cut] = eden_G
+            eden = cell.N3 / np.sqrt(cell.V) * np.fft.ifftn(fft_grid).real
+        else:
+            n = len(eden_history)
+            A = np.zeros((n+1, n+1), dtype=float)
+            b = np.zeros((n+1,), dtype=float) ; b[-1] = 1.
+            for i in range(n):
+                for j in range(n):
+                    A[i,j] = np.sum(np.conjugate(R_history[i]) * R_history[j]).real
+            A[-1,:] = 1.
+            A[:,-1] = -1.
+            A[-1,-1] = 0.
+            c = np.linalg.solve(A, b)[:n] # drop Lagrange multiplier
+            eden_G = np.zeros((cell.nGvec,), dtype=complex)
+            for i in range(n):
+                eden_G += c[i] * (eden_history[i] + mixing * R_history[i])
+            eden_G[0] = cell.nve / np.sqrt(cell.V)
+            fft_grid[cell.id_cut] = eden_G
+            eden = cell.N3 / np.sqrt(cell.V) * np.fft.ifftn(fft_grid).real
+
+        # eden = (1 - mixing) * cell.compute_eden_real(uG) + mixing * eden # linear mixing
         eden = np.clip(eden, a_min=1e-16,a_max=None)
         nve = np.sum(eden * cell.dV)
         if abs(nve - cell.nve) >= 1e-1:
-            print(f'renormalize nve = {nve}')
+            warn(f'renormalize nve = {nve}. Target nve = {cell.nve}', )
         eden *= cell.nve / nve # renormalize
         
         # update vxc, vHa
@@ -884,7 +948,7 @@ def run_all():
     names = ['NH3.cif', 'CH4.cif', 'H2O.cif', 'H2O2.cif', 
              'AlCl3.cif', 'BCl3.cif', 'C2H2.cif', 'C2H4.cif', 
              'CO2.cif', 'CO.cif', 'HCN.cif', 'Li2.cif', 
-             'LiH.cif', 'NaCl.cif', 'O2.cif', 'PH3.cif', 'SO2.cif']
+             'LiH.cif', 'NaCl.cif', 'PH3.cif', 'SO2.cif', 'pyrrole.cif']
     psp_dict = {'C': 'C_ONCV_PBE-1.2.upf',    'H': 'H_ONCV_PBE-1.2.upf',
                 'N': 'N_ONCV_PBE-1.2.upf',    'O': 'O_ONCV_PBE-1.2.upf', 
                 'S': 'S_ONCV_PBE-1.2.upf',   'Al': 'Al_ONCV_PBE-1.2.upf', 
@@ -894,14 +958,13 @@ def run_all():
     for name in names:
         cell = SuperCell(f'../cif/{name}', ecutwfc=25, ppdir='../pseudo')
         cell.init(psp_dict, verbose=True)
-        scf(cell, mixing=0.7, e_conv_thr=1e-6, maxiter=100)
+        scf(cell, mixing=0.7, e_conv_thr=1e-6, maxiter=100, q02=0.001)
 
 
 
 
 if __name__ == '__main__':
-    #run_all()
-	pass
+    run_all()
 
 
 
