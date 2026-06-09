@@ -22,34 +22,20 @@ number G-vectors   = 322453
 structure factors shape = (2, 322453)
 =======================
 
-#Iteration    1    total energy = -20.42759271487333 Ry    difference = -inf
-#Iteration    2    total energy = -22.68323726987673 Ry    difference = -2.2556445550
-#Iteration    3    total energy = -23.23488947489052 Ry    difference = -0.5516522050
-#Iteration    4    total energy = -23.36691920942895 Ry    difference = -0.1320297345
-#Iteration    5    total energy = -23.40852175779541 Ry    difference = -0.0416025484
-#Iteration    6    total energy = -23.42712782054078 Ry    difference = -0.0186060627
-#Iteration    7    total energy = -23.43728010345460 Ry    difference = -0.0101522829
-#Iteration    8    total energy = -23.44323521219002 Ry    difference = -0.0059551087
-#Iteration    9    total energy = -23.44680855487500 Ry    difference = -0.0035733427
-#Iteration   10    total energy = -23.44896956284882 Ry    difference = -0.0021610080
-#Iteration   11    total energy = -23.45028166725207 Ry    difference = -0.0013121044
-#Iteration   12    total energy = -23.45108080207367 Ry    difference = -0.0007991348
-#Iteration   13    total energy = -23.45156879218887 Ry    difference = -0.0004879901
-#Iteration   14    total energy = -23.45186778196294 Ry    difference = -0.0002989898
-#Iteration   15    total energy = -23.45205154051148 Ry    difference = -0.0001837585
-#Iteration   16    total energy = -23.45216494778270 Ry    difference = -0.0001134073
-#Iteration   17    total energy = -23.45223533479984 Ry    difference = -0.0000703870
-#Iteration   18    total energy = -23.45227930868881 Ry    difference = -0.0000439739
-#Iteration   19    total energy = -23.45230701330808 Ry    difference = -0.0000277046
-#Iteration   20    total energy = -23.45232462393525 Ry    difference = -0.0000176106
-#Iteration   21    total energy = -23.45233595175615 Ry    difference = -0.0000113278
-#Iteration   22    total energy = -23.45234332757108 Ry    difference = -0.0000073758
-#Iteration   23    total energy = -23.45234820932853 Ry    difference = -0.0000048818
-#Iteration   24    total energy = -23.45235145642867 Ry    difference = -0.0000032471
-Total energy        = -23.45235145642867 Ry
-One particle energy = -50.56430202 Ry
-Hartree energy      = 26.33172630735679 Ry
-XC energy           = -7.22662352717888 Ry
+#Iteration    1    total energy = -22.05285450294928 Ry    difference = -inf
+#Iteration    2    total energy = -25.60391438429877 Ry    difference = -3.5510598813
+#Iteration    3    total energy = -23.48862471438650 Ry    difference = 2.1152896699
+#Iteration    4    total energy = -23.58311442077380 Ry    difference = -0.0944897064
+#Iteration    5    total energy = -23.46012784785444 Ry    difference = 0.1229865729
+#Iteration    6    total energy = -23.45322194306552 Ry    difference = 0.0069059048
+#Iteration    7    total energy = -23.45246021691684 Ry    difference = 0.0007617261
+#Iteration    8    total energy = -23.45231637220829 Ry    difference = 0.0001438447
+#Iteration    9    total energy = -23.45235888810989 Ry    difference = -0.0000425159
+#Iteration   10    total energy = -23.45235897878921 Ry    difference = -0.0000000907
+Total energy        = -23.45235897878921 Ry
+One particle energy = -50.56432641 Ry
+Hartree energy      = 26.33175243386066 Ry
+XC energy           = -7.22663278527562 Ry
 Ewald energy        = 8.00684778761867 Ry
 
 
@@ -77,34 +63,19 @@ number G-vectors   = 322453
 structure factors shape = (2, 322453)
 =======================
 
-#Iteration    1    total energy = -12.90236589958068 Ry    difference = -inf
-#Iteration    2    total energy = -14.91678210993494 Ry    difference = -2.0144162104
-#Iteration    3    total energy = -15.60984731377028 Ry    difference = -0.6930652038
-#Iteration    4    total energy = -15.87824900833503 Ry    difference = -0.2684016946
-#Iteration    5    total energy = -15.99876191425684 Ry    difference = -0.1205129059
-#Iteration    6    total energy = -16.06070123098919 Ry    difference = -0.0619393167
-#Iteration    7    total energy = -16.09561720316141 Ry    difference = -0.0349159722
-#Iteration    8    total energy = -16.11631842189461 Ry    difference = -0.0207012187
-#Iteration    9    total energy = -16.12888388082598 Ry    difference = -0.0125654589
-#Iteration   10    total energy = -16.13658279747424 Ry    difference = -0.0076989166
-#Iteration   11    total energy = -16.14131121776697 Ry    difference = -0.0047284203
-#Iteration   12    total energy = -16.14421188001002 Ry    difference = -0.0029006622
-#Iteration   13    total energy = -16.14598583861387 Ry    difference = -0.0017739586
-#Iteration   14    total energy = -16.14706595037532 Ry    difference = -0.0010801118
-#Iteration   15    total energy = -16.14771968028171 Ry    difference = -0.0006537299
-#Iteration   16    total energy = -16.14811250581761 Ry    difference = -0.0003928255
-#Iteration   17    total energy = -16.14834650582215 Ry    difference = -0.0002340000
-#Iteration   18    total energy = -16.14848435329409 Ry    difference = -0.0001378475
-#Iteration   19    total energy = -16.14856439695123 Ry    difference = -0.0000800437
-#Iteration   20    total energy = -16.14861002307953 Ry    difference = -0.0000456261
-#Iteration   21    total energy = -16.14863539369303 Ry    difference = -0.0000253706
-#Iteration   22    total energy = -16.14864895911392 Ry    difference = -0.0000135654
-#Iteration   23    total energy = -16.14865582736351 Ry    difference = -0.0000068682
-#Iteration   24    total energy = -16.14865900608588 Ry    difference = -0.0000031787
-Total energy        = -16.14865900608588 Ry
-One particle energy = -40.39432517 Ry
-Hartree energy      = 21.02129405799547 Ry
-XC energy           = -6.35859759992787 Ry
+#Iteration    1    total energy = -14.66759617821127 Ry    difference = -inf
+#Iteration    2    total energy = -17.26459491915433 Ry    difference = -2.5969987409
+#Iteration    3    total energy = -16.10940729254021 Ry    difference = 1.1551876266
+#Iteration    4    total energy = -16.17791380830300 Ry    difference = -0.0685065158
+#Iteration    5    total energy = -16.14446494808305 Ry    difference = 0.0334488602
+#Iteration    6    total energy = -16.14920931076631 Ry    difference = -0.0047443627
+#Iteration    7    total energy = -16.14862858174446 Ry    difference = 0.0005807290
+#Iteration    8    total energy = -16.14865807606652 Ry    difference = -0.0000294943
+#Iteration    9    total energy = -16.14865670820071 Ry    difference = 0.0000013679
+Total energy        = -16.14865670820071 Ry
+One particle energy = -40.39434726 Ry
+Hartree energy      = 21.02132612615105 Ry
+XC energy           = -6.35860527320399 Ry
 Ewald energy        = 9.58296970137193 Ry
 
 
@@ -132,37 +103,21 @@ number G-vectors   = 322453
 structure factors shape = (2, 322453)
 =======================
 
-#Iteration    1    total energy = -31.76350906024753 Ry    difference = -inf
-#Iteration    2    total energy = -33.89754314786057 Ry    difference = -2.1340340876
-#Iteration    3    total energy = -34.30789579383192 Ry    difference = -0.4103526460
-#Iteration    4    total energy = -34.33117081271118 Ry    difference = -0.0232750189
-#Iteration    5    total energy = -34.30681319681572 Ry    difference = 0.0243576159
-#Iteration    6    total energy = -34.28492436087450 Ry    difference = 0.0218888359
-#Iteration    7    total energy = -34.26948910046534 Ry    difference = 0.0154352604
-#Iteration    8    total energy = -34.25904037760275 Ry    difference = 0.0104487229
-#Iteration    9    total energy = -34.25203511793040 Ry    difference = 0.0070052597
-#Iteration   10    total energy = -34.24735650152734 Ry    difference = 0.0046786164
-#Iteration   11    total energy = -34.24424412297600 Ry    difference = 0.0031123786
-#Iteration   12    total energy = -34.24217959600946 Ry    difference = 0.0020645270
-#Iteration   13    total energy = -34.24081329944291 Ry    difference = 0.0013662966
-#Iteration   14    total energy = -34.23991162027448 Ry    difference = 0.0009016792
-#Iteration   15    total energy = -34.23931824570726 Ry    difference = 0.0005933746
-#Iteration   16    total energy = -34.23892841834995 Ry    difference = 0.0003898274
-#Iteration   17    total energy = -34.23867301920628 Ry    difference = 0.0002553991
-#Iteration   18    total energy = -34.23850636443461 Ry    difference = 0.0001666548
-#Iteration   19    total energy = -34.23839799678318 Ry    difference = 0.0001083677
-#Iteration   20    total energy = -34.23832785005522 Ry    difference = 0.0000701467
-#Iteration   21    total energy = -34.23828258942037 Ry    difference = 0.0000452606
-#Iteration   22    total energy = -34.23825353423353 Ry    difference = 0.0000290552
-#Iteration   23    total energy = -34.23823499602162 Ry    difference = 0.0000185382
-#Iteration   24    total energy = -34.23822324133484 Ry    difference = 0.0000117547
-#Iteration   25    total energy = -34.23821586597393 Ry    difference = 0.0000073754
-#Iteration   26    total energy = -34.23821124744203 Ry    difference = 0.0000046185
-#Iteration   27    total energy = -34.23820839728771 Ry    difference = 0.0000028502
-Total energy        = -34.23820839728771 Ry
-One particle energy = -62.97189445 Ry
-Hartree energy      = 32.91737381616439 Ry
-XC energy           = -8.41052438985087 Ry
+#Iteration    1    total energy = -33.11597865446478 Ry    difference = -inf
+#Iteration    2    total energy = -36.86132799524864 Ry    difference = -3.7453493408
+#Iteration    3    total energy = -34.30599244468363 Ry    difference = 2.5553355506
+#Iteration    4    total energy = -34.35581645961105 Ry    difference = -0.0498240149
+#Iteration    5    total energy = -34.24757821531920 Ry    difference = 0.1082382443
+#Iteration    6    total energy = -34.23811111099508 Ry    difference = 0.0094671043
+#Iteration    7    total energy = -34.23807024844920 Ry    difference = 0.0000408625
+#Iteration    8    total energy = -34.23816040527056 Ry    difference = -0.0000901568
+#Iteration    9    total energy = -34.23819847466238 Ry    difference = -0.0000380694
+#Iteration   10    total energy = -34.23820451072816 Ry    difference = -0.0000060361
+#Iteration   11    total energy = -34.23820452078132 Ry    difference = -0.0000000101
+Total energy        = -34.23820452078132 Ry
+One particle energy = -62.97189811 Ry
+Hartree energy      = 32.91738428184526 Ry
+XC energy           = -8.41052732283214 Ry
 Ewald energy        = 4.22683662938450 Ry
 
 
@@ -190,40 +145,21 @@ number G-vectors   = 322453
 structure factors shape = (2, 322453)
 =======================
 
-#Iteration    1    total energy = -63.80325354119138 Ry    difference = -inf
-#Iteration    2    total energy = -65.46778298746186 Ry    difference = -1.6645294463
-#Iteration    3    total energy = -65.92503172889097 Ry    difference = -0.4572487414
-#Iteration    4    total energy = -66.00125680341229 Ry    difference = -0.0762250745
-#Iteration    5    total energy = -65.98910349961926 Ry    difference = 0.0121533038
-#Iteration    6    total energy = -65.96330902922357 Ry    difference = 0.0257944704
-#Iteration    7    total energy = -65.94062142417907 Ry    difference = 0.0226876050
-#Iteration    8    total energy = -65.92352838469949 Ry    difference = 0.0170930395
-#Iteration    9    total energy = -65.91130194494774 Ry    difference = 0.0122264398
-#Iteration   10    total energy = -65.90276531805118 Ry    difference = 0.0085366269
-#Iteration   11    total energy = -65.89687583676816 Ry    difference = 0.0058894813
-#Iteration   12    total energy = -65.89284702175682 Ry    difference = 0.0040288150
-#Iteration   13    total energy = -65.89011002865639 Ry    difference = 0.0027369931
-#Iteration   14    total energy = -65.88825686237685 Ry    difference = 0.0018531663
-#Iteration   15    total energy = -65.88700543740850 Ry    difference = 0.0012514250
-#Iteration   16    total energy = -65.88616251379881 Ry    difference = 0.0008429236
-#Iteration   17    total energy = -65.88559581064850 Ry    difference = 0.0005667032
-#Iteration   18    total energy = -65.88521556946382 Ry    difference = 0.0003802412
-#Iteration   19    total energy = -65.88496082573153 Ry    difference = 0.0002547437
-#Iteration   20    total energy = -65.88479044117713 Ry    difference = 0.0001703846
-#Iteration   21    total energy = -65.88467664275227 Ry    difference = 0.0001137984
-#Iteration   22    total energy = -65.88460075474590 Ry    difference = 0.0000758880
-#Iteration   23    total energy = -65.88455023827440 Ry    difference = 0.0000505165
-#Iteration   24    total energy = -65.88451665243355 Ry    difference = 0.0000335858
-#Iteration   25    total energy = -65.88449437427644 Ry    difference = 0.0000222782
-#Iteration   26    total energy = -65.88447960580005 Ry    difference = 0.0000147685
-#Iteration   27    total energy = -65.88446985186776 Ry    difference = 0.0000097539
-#Iteration   28    total energy = -65.88446340984726 Ry    difference = 0.0000064420
-#Iteration   29    total energy = -65.88445918593675 Ry    difference = 0.0000042239
-#Iteration   30    total energy = -65.88445639169780 Ry    difference = 0.0000027942
-Total energy        = -65.88445639169780 Ry
-One particle energy = -140.54446824 Ry
-Hartree energy      = 72.83346164506237 Ry
-XC energy           = -15.21239642768029 Ry
+#Iteration    1    total energy = -64.97216169230693 Ry    difference = -inf
+#Iteration    2    total energy = -67.09942064427263 Ry    difference = -2.1272589520
+#Iteration    3    total energy = -65.23957982502587 Ry    difference = 1.8598408192
+#Iteration    4    total energy = -65.96452590666793 Ry    difference = -0.7249460816
+#Iteration    5    total energy = -65.88493251559622 Ry    difference = 0.0795933911
+#Iteration    6    total energy = -65.88280193728347 Ry    difference = 0.0021305783
+#Iteration    7    total energy = -65.88419602376737 Ry    difference = -0.0013940865
+#Iteration    8    total energy = -65.88448820762609 Ry    difference = -0.0002921839
+#Iteration    9    total energy = -65.88445730199221 Ry    difference = 0.0000309056
+#Iteration   10    total energy = -65.88445195037359 Ry    difference = 0.0000053516
+#Iteration   11    total energy = -65.88445134375100 Ry    difference = 0.0000006066
+Total energy        = -65.88445134375100 Ry
+One particle energy = -140.54446500 Ry
+Hartree energy      = 72.83346571138779 Ry
+XC energy           = -15.21239867757942 Ry
 Ewald energy        = 17.03894662659594 Ry
 
 
@@ -251,39 +187,20 @@ number G-vectors   = 322453
 structure factors shape = (2, 322453)
 =======================
 
-#Iteration    1    total energy = -228.18887746418005 Ry    difference = -inf
-#Iteration    2    total energy = -229.43506244216846 Ry    difference = -1.2461849780
-#Iteration    3    total energy = -229.68261846093782 Ry    difference = -0.2475560188
-#Iteration    4    total energy = -229.65901518391874 Ry    difference = 0.0236032770
-#Iteration    5    total energy = -229.58340990441712 Ry    difference = 0.0756052795
-#Iteration    6    total energy = -229.51429288671989 Ry    difference = 0.0691170177
-#Iteration    7    total energy = -229.46297719310252 Ry    difference = 0.0513156936
-#Iteration    8    total energy = -229.42776311803078 Ry    difference = 0.0352140751
-#Iteration    9    total energy = -229.40445021397261 Ry    difference = 0.0233129041
-#Iteration   10    total energy = -229.38928534774359 Ry    difference = 0.0151648662
-#Iteration   11    total energy = -229.37949648720038 Ry    difference = 0.0097888605
-#Iteration   12    total energy = -229.37319563542661 Ry    difference = 0.0063008518
-#Iteration   13    total energy = -229.36914101911947 Ry    difference = 0.0040546163
-#Iteration   14    total energy = -229.36652929586296 Ry    difference = 0.0026117233
-#Iteration   15    total energy = -229.36484451669645 Ry    difference = 0.0016847792
-#Iteration   16    total energy = -229.36375590625019 Ry    difference = 0.0010886104
-#Iteration   17    total energy = -229.36305165019286 Ry    difference = 0.0007042561
-#Iteration   18    total energy = -229.36259552590434 Ry    difference = 0.0004561243
-#Iteration   19    total energy = -229.36229993991486 Ry    difference = 0.0002955860
-#Iteration   20    total energy = -229.36210835613207 Ry    difference = 0.0001915838
-#Iteration   21    total energy = -229.36198419786808 Ry    difference = 0.0001241583
-#Iteration   22    total energy = -229.36190383459962 Ry    difference = 0.0000803633
-#Iteration   23    total energy = -229.36185182362016 Ry    difference = 0.0000520110
-#Iteration   24    total energy = -229.36181824422209 Ry    difference = 0.0000335794
-#Iteration   25    total energy = -229.36179664835055 Ry    difference = 0.0000215959
-#Iteration   26    total energy = -229.36178275550679 Ry    difference = 0.0000138928
-#Iteration   27    total energy = -229.36177383097169 Ry    difference = 0.0000089245
-#Iteration   28    total energy = -229.36176816600499 Ry    difference = 0.0000056650
-#Iteration   29    total energy = -229.36176457844613 Ry    difference = 0.0000035876
-Total energy        = -229.36176457844613 Ry
-One particle energy = -398.09756808 Ry
-Hartree energy      = 187.23218978056275 Ry
-XC energy           = -33.04913737072548 Ry
+#Iteration    1    total energy = -228.84108256848936 Ry    difference = -inf
+#Iteration    2    total energy = -230.61204245917696 Ry    difference = -1.7709598907
+#Iteration    3    total energy = -229.23030080297048 Ry    difference = 1.3817416562
+#Iteration    4    total energy = -229.42207449896580 Ry    difference = -0.1917736960
+#Iteration    5    total energy = -229.36123915609656 Ry    difference = 0.0608353429
+#Iteration    6    total energy = -229.36165772431841 Ry    difference = -0.0004185682
+#Iteration    7    total energy = -229.36185298460018 Ry    difference = -0.0001952603
+#Iteration    8    total energy = -229.36179664071585 Ry    difference = 0.0000563439
+#Iteration    9    total energy = -229.36176335436110 Ry    difference = 0.0000332864
+#Iteration   10    total energy = -229.36175969218152 Ry    difference = 0.0000036622
+Total energy        = -229.36175969218152 Ry
+One particle energy = -398.09756373 Ry
+Hartree energy      = 187.23219368031170 Ry
+XC energy           = -33.04914073219337 Ry
 Ewald energy        = 14.55275108673123 Ry
 
 
@@ -311,41 +228,21 @@ number G-vectors   = 322453
 structure factors shape = (2, 322453)
 =======================
 
-#Iteration    1    total energy = -95.52392700135637 Ry    difference = -inf
-#Iteration    2    total energy = -96.21714844045901 Ry    difference = -0.6932214391
-#Iteration    3    total energy = -96.50787937100831 Ry    difference = -0.2907309305
-#Iteration    4    total energy = -96.59290625968480 Ry    difference = -0.0850268887
-#Iteration    5    total energy = -96.60218550902576 Ry    difference = -0.0092792493
-#Iteration    6    total energy = -96.58824155752291 Ry    difference = 0.0139439515
-#Iteration    7    total energy = -96.57030457838108 Ry    difference = 0.0179369791
-#Iteration    8    total energy = -96.55454808409426 Ry    difference = 0.0157564943
-#Iteration    9    total energy = -96.54231657137549 Ry    difference = 0.0122315127
-#Iteration   10    total energy = -96.53334147668663 Ry    difference = 0.0089750947
-#Iteration   11    total energy = -96.52694675564115 Ry    difference = 0.0063947210
-#Iteration   12    total energy = -96.52246532680439 Ry    difference = 0.0044814288
-#Iteration   13    total energy = -96.51935525186275 Ry    difference = 0.0031100749
-#Iteration   14    total energy = -96.51720979137409 Ry    difference = 0.0021454605
-#Iteration   15    total energy = -96.51573538401048 Ry    difference = 0.0014744074
-#Iteration   16    total energy = -96.51472462227123 Ry    difference = 0.0010107617
-#Iteration   17    total energy = -96.51403285595639 Ry    difference = 0.0006917663
-#Iteration   18    total energy = -96.51355998316713 Ry    difference = 0.0004728728
-#Iteration   19    total energy = -96.51323702627117 Ry    difference = 0.0003229569
-#Iteration   20    total energy = -96.51301659012809 Ry    difference = 0.0002204361
-#Iteration   21    total energy = -96.51286619045692 Ry    difference = 0.0001503997
-#Iteration   22    total energy = -96.51276358641243 Ry    difference = 0.0001026040
-#Iteration   23    total energy = -96.51269369326531 Ry    difference = 0.0000698931
-#Iteration   24    total energy = -96.51264604423569 Ry    difference = 0.0000476490
-#Iteration   25    total energy = -96.51261353792579 Ry    difference = 0.0000325063
-#Iteration   26    total energy = -96.51259141759192 Ry    difference = 0.0000221203
-#Iteration   27    total energy = -96.51257634212345 Ry    difference = 0.0000150755
-#Iteration   28    total energy = -96.51256609512531 Ry    difference = 0.0000102470
-#Iteration   29    total energy = -96.51255910387178 Ry    difference = 0.0000069913
-#Iteration   30    total energy = -96.51255433494848 Ry    difference = 0.0000047689
-#Iteration   31    total energy = -96.51255106745499 Ry    difference = 0.0000032675
-Total energy        = -96.51255106745499 Ry
-One particle energy = -172.63310381 Ry
-Hartree energy      = 88.38549798028089 Ry
-XC energy           = -19.48366708966129 Ry
+#Iteration    1    total energy = -96.07985302554714 Ry    difference = -inf
+#Iteration    2    total energy = -96.85453171127453 Ry    difference = -0.7746786857
+#Iteration    3    total energy = -96.49516475263520 Ry    difference = 0.3593669586
+#Iteration    4    total energy = -96.39380521742500 Ry    difference = 0.1013595352
+#Iteration    5    total energy = -96.51174066397213 Ry    difference = -0.1179354465
+#Iteration    6    total energy = -96.51300052035630 Ry    difference = -0.0012598564
+#Iteration    7    total energy = -96.51245910055954 Ry    difference = 0.0005414198
+#Iteration    8    total energy = -96.51250127281045 Ry    difference = -0.0000421723
+#Iteration    9    total energy = -96.51254990908615 Ry    difference = -0.0000486363
+#Iteration   10    total energy = -96.51254491733619 Ry    difference = 0.0000049917
+#Iteration   11    total energy = -96.51254425416964 Ry    difference = 0.0000006632
+Total energy        = -96.51254425416964 Ry
+One particle energy = -172.63309530 Ry
+Hartree energy      = 88.38549730284919 Ry
+XC energy           = -19.48366810172951 Ry
 Ewald energy        = 7.21872184931020 Ry
 
 
@@ -373,39 +270,20 @@ number G-vectors   = 322453
 structure factors shape = (2, 322453)
 =======================
 
-#Iteration    1    total energy = -21.62675520072211 Ry    difference = -inf
-#Iteration    2    total energy = -23.60865567601501 Ry    difference = -1.9819004753
-#Iteration    3    total energy = -24.43917510434553 Ry    difference = -0.8305194283
-#Iteration    4    total energy = -24.76287911177886 Ry    difference = -0.3237040074
-#Iteration    5    total energy = -24.88611515591540 Ry    difference = -0.1232360441
-#Iteration    6    total energy = -24.93285730666874 Ry    difference = -0.0467421508
-#Iteration    7    total energy = -24.95025074150077 Ry    difference = -0.0173934348
-#Iteration    8    total energy = -24.95618066357271 Ry    difference = -0.0059299221
-#Iteration    9    total energy = -24.95760706563837 Ry    difference = -0.0014264021
-#Iteration   10    total energy = -24.95733264199857 Ry    difference = 0.0002744236
-#Iteration   11    total energy = -24.95651138846812 Ry    difference = 0.0008212535
-#Iteration   12    total energy = -24.95561242785907 Ry    difference = 0.0008989606
-#Iteration   13    total energy = -24.95481256163501 Ry    difference = 0.0007998662
-#Iteration   14    total energy = -24.95416215996206 Ry    difference = 0.0006504017
-#Iteration   15    total energy = -24.95365909493996 Ry    difference = 0.0005030650
-#Iteration   16    total energy = -24.95328223731075 Ry    difference = 0.0003768576
-#Iteration   17    total energy = -24.95300608382122 Ry    difference = 0.0002761535
-#Iteration   18    total energy = -24.95280693525144 Ry    difference = 0.0001991486
-#Iteration   19    total energy = -24.95266510748404 Ry    difference = 0.0001418278
-#Iteration   20    total energy = -24.95256506174159 Ry    difference = 0.0001000457
-#Iteration   21    total energy = -24.95249504902763 Ry    difference = 0.0000700127
-#Iteration   22    total energy = -24.95244635585350 Ry    difference = 0.0000486932
-#Iteration   23    total energy = -24.95241270746042 Ry    difference = 0.0000336484
-#Iteration   24    total energy = -24.95238951371142 Ry    difference = 0.0000231937
-#Iteration   25    total energy = -24.95237366775411 Ry    difference = 0.0000158460
-#Iteration   26    total energy = -24.95236283899218 Ry    difference = 0.0000108288
-#Iteration   27    total energy = -24.95235544441895 Ry    difference = 0.0000073946
-#Iteration   28    total energy = -24.95235044658664 Ry    difference = 0.0000049978
-#Iteration   29    total energy = -24.95234705919353 Ry    difference = 0.0000033874
-Total energy        = -24.95234705919353 Ry
-One particle energy = -57.80025488 Ry
-Hartree energy      = 29.89795583275023 Ry
-XC energy           = -8.13196314243787 Ry
+#Iteration    1    total energy = -23.45943651162330 Ry    difference = -inf
+#Iteration    2    total energy = -25.90452091822054 Ry    difference = -2.4450844066
+#Iteration    3    total energy = -24.77915313095234 Ry    difference = 1.1253677873
+#Iteration    4    total energy = -24.98665701848446 Ry    difference = -0.2075038875
+#Iteration    5    total energy = -24.94841057780680 Ry    difference = 0.0382464407
+#Iteration    6    total energy = -24.95331146493702 Ry    difference = -0.0049008871
+#Iteration    7    total energy = -24.95235832229476 Ry    difference = 0.0009531426
+#Iteration    8    total energy = -24.95232905609595 Ry    difference = 0.0000292662
+#Iteration    9    total energy = -24.95233699388761 Ry    difference = -0.0000079378
+#Iteration   10    total energy = -24.95233969861616 Ry    difference = -0.0000027047
+Total energy        = -24.95233969861616 Ry
+One particle energy = -57.80024900 Ry
+Hartree energy      = 29.89795743755294 Ry
+XC energy           = -8.13196326608533 Ry
 Ewald energy        = 11.08191513147096 Ry
 
 
@@ -433,38 +311,20 @@ number G-vectors   = 322453
 structure factors shape = (2, 322453)
 =======================
 
-#Iteration    1    total energy = -23.28080704235993 Ry    difference = -inf
-#Iteration    2    total energy = -25.75270568890899 Ry    difference = -2.4718986465
-#Iteration    3    total energy = -26.71795718122424 Ry    difference = -0.9652514923
-#Iteration    4    total energy = -27.10518526402075 Ry    difference = -0.3872280828
-#Iteration    5    total energy = -27.27407789117272 Ry    difference = -0.1688926272
-#Iteration    6    total energy = -27.35524370122596 Ry    difference = -0.0811658101
-#Iteration    7    total energy = -27.39739630234769 Ry    difference = -0.0421526011
-#Iteration    8    total energy = -27.42036841099926 Ry    difference = -0.0229721087
-#Iteration    9    total energy = -27.43318959050738 Ry    difference = -0.0128211795
-#Iteration   10    total energy = -27.44039786908375 Ry    difference = -0.0072082786
-#Iteration   11    total energy = -27.44443571537980 Ry    difference = -0.0040378463
-#Iteration   12    total energy = -27.44667017499766 Ry    difference = -0.0022344596
-#Iteration   13    total energy = -27.44788088776674 Ry    difference = -0.0012107128
-#Iteration   14    total energy = -27.44851577742779 Ry    difference = -0.0006348897
-#Iteration   15    total energy = -27.44883154616777 Ry    difference = -0.0003157687
-#Iteration   16    total energy = -27.44897454800800 Ry    difference = -0.0001430018
-#Iteration   17    total energy = -27.44902729483901 Ry    difference = -0.0000527468
-#Iteration   18    total energy = -27.44903544463136 Ry    difference = -0.0000081498
-#Iteration   19    total energy = -27.44902369086927 Ry    difference = 0.0000117538
-#Iteration   20    total energy = -27.44900486655305 Ry    difference = 0.0000188243
-#Iteration   21    total energy = -27.44898527454559 Ry    difference = 0.0000195920
-#Iteration   22    total energy = -27.44896768951907 Ry    difference = 0.0000175850
-#Iteration   23    total energy = -27.44895304707957 Ry    difference = 0.0000146424
-#Iteration   24    total energy = -27.44894138822464 Ry    difference = 0.0000116589
-#Iteration   25    total energy = -27.44893239571482 Ry    difference = 0.0000089925
-#Iteration   26    total energy = -27.44892560354336 Ry    difference = 0.0000067922
-#Iteration   27    total energy = -27.44892057149094 Ry    difference = 0.0000050321
-#Iteration   28    total energy = -27.44891686068642 Ry    difference = 0.0000037108
-Total energy        = -27.44891686068642 Ry
-One particle energy = -73.39479490 Ry
-Hartree energy      = 37.96818521512304 Ry
-XC energy           = -9.73800751900943 Ry
+#Iteration    1    total energy = -25.57712916897628 Ry    difference = -inf
+#Iteration    2    total energy = -28.62866868606451 Ry    difference = -3.0515395171
+#Iteration    3    total energy = -27.19783096292203 Ry    difference = 1.4308377231
+#Iteration    4    total energy = -27.50484681302717 Ry    difference = -0.3070158501
+#Iteration    5    total energy = -27.44396443522712 Ry    difference = 0.0608823778
+#Iteration    6    total energy = -27.44861377546584 Ry    difference = -0.0046493402
+#Iteration    7    total energy = -27.44896064395896 Ry    difference = -0.0003468685
+#Iteration    8    total energy = -27.44889729203228 Ry    difference = 0.0000633519
+#Iteration    9    total energy = -27.44890765090611 Ry    difference = -0.0000103589
+#Iteration   10    total energy = -27.44890761361833 Ry    difference = 0.0000000373
+Total energy        = -27.44890761361833 Ry
+One particle energy = -73.39478752 Ry
+Hartree energy      = 37.96818867870746 Ry
+XC energy           = -9.73800911806442 Ry
 Ewald energy        = 17.71570034371700 Ry
 
 
@@ -492,41 +352,20 @@ number G-vectors   = 322453
 structure factors shape = (2, 322453)
 =======================
 
-#Iteration    1    total energy = -72.60139611179474 Ry    difference = -inf
-#Iteration    2    total energy = -74.70432886009617 Ry    difference = -2.1029327483
-#Iteration    3    total energy = -75.07563032545258 Ry    difference = -0.3713014654
-#Iteration    4    total energy = -75.19332697275030 Ry    difference = -0.1176966473
-#Iteration    5    total energy = -75.21753119299991 Ry    difference = -0.0242042202
-#Iteration    6    total energy = -75.20894746083667 Ry    difference = 0.0085837322
-#Iteration    7    total energy = -75.19191797872185 Ry    difference = 0.0170294821
-#Iteration    8    total energy = -75.17535535800191 Ry    difference = 0.0165626207
-#Iteration    9    total energy = -75.16184739113639 Ry    difference = 0.0135079669
-#Iteration   10    total energy = -75.15164443611563 Ry    difference = 0.0102029550
-#Iteration   11    total energy = -75.14423590288547 Ry    difference = 0.0074085332
-#Iteration   12    total energy = -75.13898080417091 Ry    difference = 0.0052550987
-#Iteration   13    total energy = -75.13530001294977 Ry    difference = 0.0036807912
-#Iteration   14    total energy = -75.13274305899840 Ry    difference = 0.0025569540
-#Iteration   15    total energy = -75.13098044529359 Ry    difference = 0.0017626137
-#Iteration   16    total energy = -75.12976919043616 Ry    difference = 0.0012112549
-#Iteration   17    total energy = -75.12893840409076 Ry    difference = 0.0008307863
-#Iteration   18    total energy = -75.12837033728725 Ry    difference = 0.0005680668
-#Iteration   19    total energy = -75.12798204117534 Ry    difference = 0.0003882961
-#Iteration   20    total energy = -75.12771721019057 Ry    difference = 0.0002648310
-#Iteration   21    total energy = -75.12753655095904 Ry    difference = 0.0001806592
-#Iteration   22    total energy = -75.12741353181069 Ry    difference = 0.0001230191
-#Iteration   23    total energy = -75.12732983180167 Ry    difference = 0.0000837000
-#Iteration   24    total energy = -75.12727280754994 Ry    difference = 0.0000570243
-#Iteration   25    total energy = -75.12723406471255 Ry    difference = 0.0000387428
-#Iteration   26    total energy = -75.12720780521396 Ry    difference = 0.0000262595
-#Iteration   27    total energy = -75.12718974029684 Ry    difference = 0.0000180649
-#Iteration   28    total energy = -75.12717765787220 Ry    difference = 0.0000120824
-#Iteration   29    total energy = -75.12716938826956 Ry    difference = 0.0000082696
-#Iteration   30    total energy = -75.12716379418168 Ry    difference = 0.0000055941
-#Iteration   31    total energy = -75.12715994242957 Ry    difference = 0.0000038518
-Total energy        = -75.12715994242957 Ry
-One particle energy = -162.67562807 Ry
-Hartree energy      = 83.33278988556799 Ry
-XC energy           = -17.24249179257301 Ry
+#Iteration    1    total energy = -73.99994942759210 Ry    difference = -inf
+#Iteration    2    total energy = -77.25349321868960 Ry    difference = -3.2535437911
+#Iteration    3    total energy = -74.99397611597063 Ry    difference = 2.2595171027
+#Iteration    4    total energy = -75.15847224091442 Ry    difference = -0.1644961249
+#Iteration    5    total energy = -75.12040226192987 Ry    difference = 0.0380699790
+#Iteration    6    total energy = -75.12594804511424 Ry    difference = -0.0055457832
+#Iteration    7    total energy = -75.12715397084237 Ry    difference = -0.0012059257
+#Iteration    8    total energy = -75.12714714948488 Ry    difference = 0.0000068214
+#Iteration    9    total energy = -75.12715510184130 Ry    difference = -0.0000079524
+#Iteration   10    total energy = -75.12715197479027 Ry    difference = 0.0000031271
+Total energy        = -75.12715197479027 Ry
+One particle energy = -162.67562123 Ry
+Hartree energy      = 83.33279175277667 Ry
+XC energy           = -17.24249253611991 Ry
 Ewald energy        = 21.45817003696299 Ry
 
 
@@ -554,40 +393,21 @@ number G-vectors   = 322453
 structure factors shape = (2, 322453)
 =======================
 
-#Iteration    1    total energy = -41.78952369549470 Ry    difference = -inf
-#Iteration    2    total energy = -42.85718479124056 Ry    difference = -1.0676610957
-#Iteration    3    total energy = -43.03694712116933 Ry    difference = -0.1797623299
-#Iteration    4    total energy = -43.17021689277404 Ry    difference = -0.1332697716
-#Iteration    5    total energy = -43.20008048876752 Ry    difference = -0.0298635960
-#Iteration    6    total energy = -43.20747434052394 Ry    difference = -0.0073938518
-#Iteration    7    total energy = -43.20259405225239 Ry    difference = 0.0048802883
-#Iteration    8    total energy = -43.19553092005652 Ry    difference = 0.0070631322
-#Iteration    9    total energy = -43.18874285376827 Ry    difference = 0.0067880663
-#Iteration   10    total energy = -43.18323362543908 Ry    difference = 0.0055092283
-#Iteration   11    total energy = -43.17904871020772 Ry    difference = 0.0041849152
-#Iteration   12    total energy = -43.17599234297182 Ry    difference = 0.0030563672
-#Iteration   13    total energy = -43.17381103281977 Ry    difference = 0.0021813102
-#Iteration   14    total energy = -43.17227612110733 Ry    difference = 0.0015349117
-#Iteration   15    total energy = -43.17120618134472 Ry    difference = 0.0010699398
-#Iteration   16    total energy = -43.17046451687234 Ry    difference = 0.0007416645
-#Iteration   17    total energy = -43.16995242129960 Ry    difference = 0.0005120956
-#Iteration   18    total energy = -43.16959992672300 Ry    difference = 0.0003524946
-#Iteration   19    total energy = -43.16935761900672 Ry    difference = 0.0002423077
-#Iteration   20    total energy = -43.16919133107748 Ry    difference = 0.0001662879
-#Iteration   21    total energy = -43.16907731225829 Ry    difference = 0.0001140188
-#Iteration   22    total energy = -43.16899916237799 Ry    difference = 0.0000781499
-#Iteration   23    total energy = -43.16894554809083 Ry    difference = 0.0000536143
-#Iteration   24    total energy = -43.16890882292261 Ry    difference = 0.0000367252
-#Iteration   25    total energy = -43.16888367464199 Ry    difference = 0.0000251483
-#Iteration   26    total energy = -43.16886646130595 Ry    difference = 0.0000172133
-#Iteration   27    total energy = -43.16885461971923 Ry    difference = 0.0000118416
-#Iteration   28    total energy = -43.16884651590406 Ry    difference = 0.0000081038
-#Iteration   29    total energy = -43.16884094711496 Ry    difference = 0.0000055688
-#Iteration   30    total energy = -43.16883717629704 Ry    difference = 0.0000037708
-Total energy        = -43.16883717629704 Ry
-One particle energy = -82.50964686 Ry
-Hartree energy      = 42.29993438211652 Ry
-XC energy           = -10.09744439898922 Ry
+#Iteration    1    total energy = -42.56756747170288 Ry    difference = -inf
+#Iteration    2    total energy = -44.11024260845716 Ry    difference = -1.5426751368
+#Iteration    3    total energy = -42.59487508729059 Ry    difference = 1.5153675212
+#Iteration    4    total energy = -43.22056669394311 Ry    difference = -0.6256916067
+#Iteration    5    total energy = -43.17329443632985 Ry    difference = 0.0472722576
+#Iteration    6    total energy = -43.16807524970326 Ry    difference = 0.0052191866
+#Iteration    7    total energy = -43.16833956717841 Ry    difference = -0.0002643175
+#Iteration    8    total energy = -43.16887588204127 Ry    difference = -0.0005363149
+#Iteration    9    total energy = -43.16883375322589 Ry    difference = 0.0000421288
+#Iteration   10    total energy = -43.16882735001123 Ry    difference = 0.0000064032
+#Iteration   11    total energy = -43.16882879218021 Ry    difference = -0.0000014422
+Total energy        = -43.16882879218021 Ry
+One particle energy = -82.50963874 Ry
+Hartree energy      = 42.29993547318967 Ry
+XC energy           = -10.09744522306093 Ry
 Ewald energy        = 7.13831970064728 Ry
 
 
@@ -615,39 +435,25 @@ number G-vectors   = 322453
 structure factors shape = (3, 322453)
 =======================
 
-#Iteration    1    total energy = -29.87023116320361 Ry    difference = -inf
-#Iteration    2    total energy = -31.48607554876254 Ry    difference = -1.6158443856
-#Iteration    3    total energy = -31.96353244392326 Ry    difference = -0.4774568952
-#Iteration    4    total energy = -32.24402435390813 Ry    difference = -0.2804919100
-#Iteration    5    total energy = -32.31425178195107 Ry    difference = -0.0702274280
-#Iteration    6    total energy = -32.35274254054310 Ry    difference = -0.0384907586
-#Iteration    7    total energy = -32.35855555223402 Ry    difference = -0.0058130117
-#Iteration    8    total energy = -32.36045720842579 Ry    difference = -0.0019016562
-#Iteration    9    total energy = -32.35824614387346 Ry    difference = 0.0022110646
-#Iteration   10    total energy = -32.35622021429082 Ry    difference = 0.0020259296
-#Iteration   11    total energy = -32.35418451441191 Ry    difference = 0.0020356999
-#Iteration   12    total energy = -32.35265002301905 Ry    difference = 0.0015344914
-#Iteration   13    total energy = -32.35146525997455 Ry    difference = 0.0011847630
-#Iteration   14    total energy = -32.35061274399362 Ry    difference = 0.0008525160
-#Iteration   15    total energy = -32.34999737248895 Ry    difference = 0.0006153715
-#Iteration   16    total energy = -32.34956348334779 Ry    difference = 0.0004338891
-#Iteration   17    total energy = -32.34925809211563 Ry    difference = 0.0003053912
-#Iteration   18    total energy = -32.34904520460005 Ry    difference = 0.0002128875
-#Iteration   19    total energy = -32.34889711373357 Ry    difference = 0.0001480909
-#Iteration   20    total energy = -32.34879461249408 Ry    difference = 0.0001025012
-#Iteration   21    total energy = -32.34872376494863 Ry    difference = 0.0000708475
-#Iteration   22    total energy = -32.34867494735173 Ry    difference = 0.0000488176
-#Iteration   23    total energy = -32.34864137476131 Ry    difference = 0.0000335726
-#Iteration   24    total energy = -32.34861829729134 Ry    difference = 0.0000230775
-#Iteration   25    total energy = -32.34860249636301 Ry    difference = 0.0000158009
-#Iteration   26    total energy = -32.34859162301236 Ry    difference = 0.0000108734
-#Iteration   27    total energy = -32.34858420997528 Ry    difference = 0.0000074130
-#Iteration   28    total energy = -32.34857914407678 Ry    difference = 0.0000050659
-#Iteration   29    total energy = -32.34857568180465 Ry    difference = 0.0000034623
-Total energy        = -32.34857568180465 Ry
-One particle energy = -67.84596256 Ry
-Hartree energy      = 35.00683197899315 Ry
-XC energy           = -8.94124304326674 Ry
+/home/lyh/SegFault/SegFault_py/src/pw/src/main2.py:876: UserWarning: Exited postprocessing with accuracies 
+[2.15146635e-09 1.70207801e-09 2.43072088e-09 1.01243466e-08
+ 7.13773685e-09]
+not reaching the requested tolerance 1e-08.
+  w, uG = lobpcg(linop, X=uG, M=M, largest=False, maxiter=200, tol=1e-8) # uG updated
+#Iteration    1    total energy = -31.23879106527511 Ry    difference = -inf
+#Iteration    2    total energy = -33.49562749093811 Ry    difference = -2.2568364257
+#Iteration    3    total energy = -31.97489603103958 Ry    difference = 1.5207314599
+#Iteration    4    total energy = -32.35449378743557 Ry    difference = -0.3795977564
+#Iteration    5    total energy = -32.37860888025290 Ry    difference = -0.0241150928
+#Iteration    6    total energy = -32.34571920892780 Ry    difference = 0.0328896713
+#Iteration    7    total energy = -32.34916564224969 Ry    difference = -0.0034464333
+#Iteration    8    total energy = -32.34841738512209 Ry    difference = 0.0007482571
+#Iteration    9    total energy = -32.34857123372959 Ry    difference = -0.0001538486
+#Iteration   10    total energy = -32.34856811861319 Ry    difference = 0.0000031151
+Total energy        = -32.34856811861319 Ry
+One particle energy = -67.84595739 Ry
+Hartree energy      = 35.00683501970974 Ry
+XC energy           = -8.94124368829127 Ry
 Ewald energy        = 9.43179794447013 Ry
 
 
@@ -676,37 +482,18 @@ structure factors shape = (1, 322453)
 =======================
 
 Before renormalization nve = 5.776114695482716
-#Iteration    1    total energy = -28.83506073165638 Ry    difference = -inf
-#Iteration    2    total energy = -28.68625093171029 Ry    difference = 0.1488097999
-#Iteration    3    total energy = -28.56856453781801 Ry    difference = 0.1176863939
-#Iteration    4    total energy = -28.48567735556891 Ry    difference = 0.0828871822
-#Iteration    5    total energy = -28.42882075569992 Ry    difference = 0.0568565999
-#Iteration    6    total energy = -28.39093614348804 Ry    difference = 0.0378846122
-#Iteration    7    total energy = -28.36620697391439 Ry    difference = 0.0247291696
-#Iteration    8    total energy = -28.35023953711732 Ry    difference = 0.0159674368
-#Iteration    9    total energy = -28.33998956598183 Ry    difference = 0.0102499711
-#Iteration   10    total energy = -28.33342403269713 Ry    difference = 0.0065655333
-#Iteration   11    total energy = -28.32921938680092 Ry    difference = 0.0042046459
-#Iteration   12    total energy = -28.32652604291911 Ry    difference = 0.0026933439
-#Iteration   13    total energy = -28.32480097793201 Ry    difference = 0.0017250650
-#Iteration   14    total energy = -28.32369678910645 Ry    difference = 0.0011041888
-#Iteration   15    total energy = -28.32299082303397 Ry    difference = 0.0007059661
-#Iteration   16    total energy = -28.32254015692784 Ry    difference = 0.0004506661
-#Iteration   17    total energy = -28.32225302747035 Ry    difference = 0.0002871295
-#Iteration   18    total energy = -28.32207048076092 Ry    difference = 0.0001825467
-#Iteration   19    total energy = -28.32195471350847 Ry    difference = 0.0001157673
-#Iteration   20    total energy = -28.32188149813740 Ry    difference = 0.0000732154
-#Iteration   21    total energy = -28.32183534543952 Ry    difference = 0.0000461527
-#Iteration   22    total energy = -28.32180635099920 Ry    difference = 0.0000289944
-#Iteration   23    total energy = -28.32178820631542 Ry    difference = 0.0000181447
-#Iteration   24    total energy = -28.32177691102907 Ry    difference = 0.0000112953
-#Iteration   25    total energy = -28.32176990835252 Ry    difference = 0.0000070027
-#Iteration   26    total energy = -28.32176559499289 Ry    difference = 0.0000043134
-#Iteration   27    total energy = -28.32176295401691 Ry    difference = 0.0000026410
-Total energy        = -28.32176295401691 Ry
-One particle energy = -33.12734474 Ry
-Hartree energy      = 12.87298615402092 Ry
-XC energy           = -6.26842365385106 Ry
+#Iteration    1    total energy = -28.54484524581691 Ry    difference = -inf
+#Iteration    2    total energy = -28.37635673458063 Ry    difference = 0.1684885112
+#Iteration    3    total energy = -28.31121690193866 Ry    difference = 0.0651398326
+#Iteration    4    total energy = -28.32199814537411 Ry    difference = -0.0107812434
+#Iteration    5    total energy = -28.32176294100296 Ry    difference = 0.0002352044
+#Iteration    6    total energy = -28.32171424789092 Ry    difference = 0.0000486931
+#Iteration    7    total energy = -28.32175882207324 Ry    difference = -0.0000445742
+#Iteration    8    total energy = -28.32175839914655 Ry    difference = 0.0000004229
+Total energy        = -28.32175839914655 Ry
+One particle energy = -33.12733860 Ry
+Hartree energy      = 12.87298331879975 Ry
+XC energy           = -6.26842239993899 Ry
 Ewald energy        = -1.79898071695499 Ry
 
 
@@ -735,39 +522,19 @@ structure factors shape = (2, 322453)
 =======================
 
 Before renormalization nve = 3.885952423356957
-#Iteration    1    total energy = -14.99499061690946 Ry    difference = -inf
-#Iteration    2    total energy = -15.21991678688323 Ry    difference = -0.2249261700
-#Iteration    3    total energy = -15.32165914413882 Ry    difference = -0.1017423573
-#Iteration    4    total energy = -15.35180046372465 Ry    difference = -0.0301413196
-#Iteration    5    total energy = -15.35011738269627 Ry    difference = 0.0016830810
-#Iteration    6    total energy = -15.33913158294008 Ry    difference = 0.0109857998
-#Iteration    7    total energy = -15.32804073140304 Ry    difference = 0.0110908515
-#Iteration    8    total energy = -15.31929461996786 Ry    difference = 0.0087461114
-#Iteration    9    total energy = -15.31297292195332 Ry    difference = 0.0063216980
-#Iteration   10    total energy = -15.30856998402257 Ry    difference = 0.0044029379
-#Iteration   11    total energy = -15.30555648795584 Ry    difference = 0.0030134961
-#Iteration   12    total energy = -15.30350732755738 Ry    difference = 0.0020491604
-#Iteration   13    total energy = -15.30212002107985 Ry    difference = 0.0013873065
-#Iteration   14    total energy = -15.30118233464034 Ry    difference = 0.0009376864
-#Iteration   15    total energy = -15.30054886912338 Ry    difference = 0.0006334655
-#Iteration   16    total energy = -15.30012063718471 Ry    difference = 0.0004282319
-#Iteration   17    total energy = -15.29983066106977 Ry    difference = 0.0002899761
-#Iteration   18    total energy = -15.29963384420507 Ry    difference = 0.0001968169
-#Iteration   19    total energy = -15.29949992355941 Ry    difference = 0.0001339206
-#Iteration   20    total energy = -15.29940852957362 Ry    difference = 0.0000913940
-#Iteration   21    total energy = -15.29934597533266 Ry    difference = 0.0000625542
-#Iteration   22    total energy = -15.29930303259427 Ry    difference = 0.0000429427
-#Iteration   23    total energy = -15.29927346881561 Ry    difference = 0.0000295638
-#Iteration   24    total energy = -15.29925307011828 Ry    difference = 0.0000203987
-#Iteration   25    total energy = -15.29923894732421 Ry    difference = 0.0000141228
-#Iteration   26    total energy = -15.29922915397748 Ry    difference = 0.0000097933
-#Iteration   27    total energy = -15.29922234932135 Ry    difference = 0.0000068047
-#Iteration   28    total energy = -15.29921760706223 Ry    difference = 0.0000047423
-#Iteration   29    total energy = -15.29921429973737 Ry    difference = 0.0000033073
-Total energy        = -15.29921429973737 Ry
-One particle energy = -18.82006219 Ry
-Hartree energy      = 7.84917680535341 Ry
-XC energy           = -3.88065342708265 Ry
+#Iteration    1    total energy = -15.14721476038667 Ry    difference = -inf
+#Iteration    2    total energy = -15.48455145594869 Ry    difference = -0.3373366956
+#Iteration    3    total energy = -15.29898494400308 Ry    difference = 0.1855665119
+#Iteration    4    total energy = -15.32231309065867 Ry    difference = -0.0233281467
+#Iteration    5    total energy = -15.29875323004279 Ry    difference = 0.0235598606
+#Iteration    6    total energy = -15.29880257632716 Ry    difference = -0.0000493463
+#Iteration    7    total energy = -15.29922941993117 Ry    difference = -0.0004268436
+#Iteration    8    total energy = -15.29920539143321 Ry    difference = 0.0000240285
+#Iteration    9    total energy = -15.29920665268934 Ry    difference = -0.0000012613
+Total energy        = -15.29920665268934 Ry
+One particle energy = -18.82005713 Ry
+Hartree energy      = 7.84918080255853 Ry
+XC energy           = -3.88065484332991 Ry
 Ewald energy        = -0.44767548579094 Ry
 
 
@@ -796,94 +563,22 @@ structure factors shape = (2, 322453)
 =======================
 
 Before renormalization nve = 15.85961966316778
-#Iteration    1    total energy = -114.68131298266411 Ry    difference = -inf
-#Iteration    2    total energy = -115.62380773226106 Ry    difference = -0.9424947496
-#Iteration    3    total energy = -115.83458033653918 Ry    difference = -0.2107726043
-#Iteration    4    total energy = -115.78758927052414 Ry    difference = 0.0469910660
-#Iteration    5    total energy = -115.69803746624649 Ry    difference = 0.0895518043
-#Iteration    6    total energy = -115.62641226958148 Ry    difference = 0.0716251967
-#Iteration    7    total energy = -115.57865881836409 Ry    difference = 0.0477534512
-#Iteration    8    total energy = -115.54879301532820 Ry    difference = 0.0298658030
-#Iteration    9    total energy = -115.53061784703497 Ry    difference = 0.0181751683
-#Iteration   10    total energy = -115.51972018615838 Ry    difference = 0.0108976609
-#Iteration   11    total energy = -115.51325798762613 Ry    difference = 0.0064621985
-#Iteration   12    total energy = -115.50946546607940 Ry    difference = 0.0037925215
-#Iteration   13    total energy = -115.50726215757280 Ry    difference = 0.0022033085
-#Iteration   14    total energy = -115.50599769687221 Ry    difference = 0.0012644607
-#Iteration   15    total energy = -115.50528373261812 Ry    difference = 0.0007139643
-#Iteration   16    total energy = -115.50488876477795 Ry    difference = 0.0003949678
-#Iteration   17    total energy = -115.50467613654241 Ry    difference = 0.0002126282
-#Iteration   18    total energy = -115.50456647445655 Ry    difference = 0.0001096621
-#Iteration   19    total energy = -115.50451378707092 Ry    difference = 0.0000526874
-#Iteration   20    total energy = -115.50449180196260 Ry    difference = 0.0000219851
-#Iteration   21    total energy = -115.50448568240252 Ry    difference = 0.0000061196
-#Iteration   22    total energy = -115.50448719483119 Ry    difference = -0.0000015124
-Total energy        = -115.50448719483119 Ry
-One particle energy = -172.85059776 Ry
-Hartree energy      = 85.43047990590638 Ry
-XC energy           = -18.40141155561690 Ry
+#Iteration    1    total energy = -115.12701293407466 Ry    difference = -inf
+#Iteration    2    total energy = -116.98932119700883 Ry    difference = -1.8623082629
+#Iteration    3    total energy = -115.67060672074918 Ry    difference = 1.3187144763
+#Iteration    4    total energy = -115.64399046744222 Ry    difference = 0.0266162533
+#Iteration    5    total energy = -115.50759518528690 Ry    difference = 0.1363952822
+#Iteration    6    total energy = -115.50008204352791 Ry    difference = 0.0075131418
+#Iteration    7    total energy = -115.50333975189011 Ry    difference = -0.0032577084
+#Iteration    8    total energy = -115.50467823048214 Ry    difference = -0.0013384786
+#Iteration    9    total energy = -115.50452134813345 Ry    difference = 0.0001568823
+#Iteration   10    total energy = -115.50452139332677 Ry    difference = -0.0000000452
+Total energy        = -115.50452139332677 Ry
+One particle energy = -172.85071797 Ry
+Hartree energy      = 85.43057181967569 Ry
+XC energy           = -18.40141745842005 Ry
 Ewald energy        = -9.68295778443775 Ry
 
-
-===== system info =====
-L1, L2, L3    = 18.897261246257703, 18.897261246257703, 18.897261246257703 a.u.
-natom         = 2
-ntype         = 1
-symbol list   = ['O']
-vellist       = [6]
-number list   = [8]
-atom list     = [2]
-pp nuc charge = [6, 6]
-nuc charge    = [8, 8]
-
-ntype pp mesh = 1 and length for each [602]
-ntype pp Vloc = 1
-pp l-channel  = [[0, 1]]
-pp nid        = [[2, 2]]
-pp beta       = [(4, 602)]
-
-ecutwfc = 25 Ht    ecutrho = 100 Ht
-Ewald contribution = 9.085642577658046 Ry
-fft grid shape     = (90, 90, 90)
-number G-vectors   = 322453
-structure factors shape = (1, 322453)
-=======================
-
-#Iteration    1    total energy = -63.54383591460230 Ry    difference = -inf
-#Iteration    2    total energy = -63.43950217168893 Ry    difference = 0.1043337429
-#Iteration    3    total energy = -63.44312815533108 Ry    difference = -0.0036259836
-#Iteration    4    total energy = -63.42420983439959 Ry    difference = 0.0189183209
-#Iteration    5    total energy = -63.41356385594032 Ry    difference = 0.0106459785
-#Iteration    6    total energy = -63.39658202183371 Ry    difference = 0.0169818341
-#Iteration    7    total energy = -63.38637795015580 Ry    difference = 0.0102040717
-#Iteration    8    total energy = -63.37559604523261 Ry    difference = 0.0107819049
-#Iteration    9    total energy = -63.36920572981491 Ry    difference = 0.0063903154
-#Iteration   10    total energy = -63.36335145967203 Ry    difference = 0.0058542701
-#Iteration   11    total energy = -63.35987964312385 Ry    difference = 0.0034718165
-#Iteration   12    total energy = -63.35690969022322 Ry    difference = 0.0029699529
-#Iteration   13    total energy = -63.35514001399412 Ry    difference = 0.0017696762
-#Iteration   14    total energy = -63.35368220219047 Ry    difference = 0.0014578118
-#Iteration   15    total energy = -63.35280871693546 Ry    difference = 0.0008734853
-#Iteration   16    total energy = -63.35210945814569 Ry    difference = 0.0006992588
-#Iteration   17    total energy = -63.35168655099048 Ry    difference = 0.0004229072
-#Iteration   18    total energy = -63.35135406777918 Ry    difference = 0.0003324832
-#Iteration   19    total energy = -63.35115149474474 Ry    difference = 0.0002025730
-#Iteration   20    total energy = -63.35099416475025 Ry    difference = 0.0001573300
-#Iteration   21    total energy = -63.35089755328943 Ry    difference = 0.0000966115
-#Iteration   22    total energy = -63.35082341785757 Ry    difference = 0.0000741354
-#Iteration   23    total energy = -63.35077757827587 Ry    difference = 0.0000458396
-#Iteration   24    total energy = -63.35074270031755 Ry    difference = 0.0000348780
-#Iteration   25    total energy = -63.35072098041718 Ry    difference = 0.0000217199
-#Iteration   26    total energy = -63.35070458026985 Ry    difference = 0.0000164001
-#Iteration   27    total energy = -63.35069430314137 Ry    difference = 0.0000102771
-#Iteration   28    total energy = -63.35068659344157 Ry    difference = 0.0000077097
-#Iteration   29    total energy = -63.35068173240512 Ry    difference = 0.0000048610
-#Iteration   30    total energy = -63.35067810634779 Ry    difference = 0.0000036261
-Total energy        = -63.35067810634779 Ry
-One particle energy = -121.40031459 Ry
-Hartree energy      = 62.43554651235480 Ry
-XC energy           = -13.47155260568566 Ry
-Ewald energy        = 9.08564257765805 Ry
 
 ===== system info =====
 L1, L2, L3    = 18.897261246257703, 18.897261246257703, 18.897261246257703 a.u.
@@ -909,40 +604,20 @@ number G-vectors   = 322453
 structure factors shape = (2, 322453)
 =======================
 
-#Iteration    1    total energy = -15.53143422526944 Ry    difference = -inf
-#Iteration    2    total energy = -16.09948831065201 Ry    difference = -0.5680540854
-#Iteration    3    total energy = -16.39331250868560 Ry    difference = -0.2938241980
-#Iteration    4    total energy = -16.54398705459191 Ry    difference = -0.1506745459
-#Iteration    5    total energy = -16.62059956492389 Ry    difference = -0.0766125103
-#Iteration    6    total energy = -16.65921368611707 Ry    difference = -0.0386141212
-#Iteration    7    total energy = -16.67837070433731 Ry    difference = -0.0191570182
-#Iteration    8    total energy = -16.68760531606849 Ry    difference = -0.0092346117
-#Iteration    9    total energy = -16.69182265623554 Ry    difference = -0.0042173402
-#Iteration   10    total energy = -16.69354616516927 Ry    difference = -0.0017235089
-#Iteration   11    total energy = -16.69406987925705 Ry    difference = -0.0005237141
-#Iteration   12    total energy = -16.69405160651596 Ry    difference = 0.0000182727
-#Iteration   13    total energy = -16.69381919100618 Ry    difference = 0.0002324155
-#Iteration   14    total energy = -16.69352994926470 Ry    difference = 0.0002892417
-#Iteration   15    total energy = -16.69325403994252 Ry    difference = 0.0002759093
-#Iteration   16    total energy = -16.69301807675314 Ry    difference = 0.0002359632
-#Iteration   17    total energy = -16.69282785634260 Ry    difference = 0.0001902204
-#Iteration   18    total energy = -16.69268003537272 Ry    difference = 0.0001478210
-#Iteration   19    total energy = -16.69256798132021 Ry    difference = 0.0001120541
-#Iteration   20    total energy = -16.69248454739910 Ry    difference = 0.0000834339
-#Iteration   21    total energy = -16.69242321811961 Ry    difference = 0.0000613293
-#Iteration   22    total energy = -16.69237861433054 Ry    difference = 0.0000446038
-#Iteration   23    total energy = -16.69234643354091 Ry    difference = 0.0000321808
-#Iteration   24    total energy = -16.69232335631247 Ry    difference = 0.0000230772
-#Iteration   25    total energy = -16.69230689495479 Ry    difference = 0.0000164614
-#Iteration   26    total energy = -16.69229519347250 Ry    difference = 0.0000117015
-#Iteration   27    total energy = -16.69228691434343 Ry    difference = 0.0000082791
-#Iteration   28    total energy = -16.69228107977180 Ry    difference = 0.0000058346
-#Iteration   29    total energy = -16.69227696939334 Ry    difference = 0.0000041104
-#Iteration   30    total energy = -16.69227406251818 Ry    difference = 0.0000029069
-Total energy        = -16.69227406251818 Ry
-One particle energy = -30.08516281 Ry
-Hartree energy      = 15.54436584549787 Ry
-XC energy           = -5.38817687886749 Ry
+#Iteration    1    total energy = -16.18853714878654 Ry    difference = -inf
+#Iteration    2    total energy = -16.74992628826990 Ry    difference = -0.5613891395
+#Iteration    3    total energy = -16.65303574489182 Ry    difference = 0.0968905434
+#Iteration    4    total energy = -16.69370907747071 Ry    difference = -0.0406733326
+#Iteration    5    total energy = -16.69004474390686 Ry    difference = 0.0036643336
+#Iteration    6    total energy = -16.69218403706527 Ry    difference = -0.0021392932
+#Iteration    7    total energy = -16.69229466261901 Ry    difference = -0.0001106256
+#Iteration    8    total energy = -16.69224692729608 Ry    difference = 0.0000477353
+#Iteration    9    total energy = -16.69226654100391 Ry    difference = -0.0000196137
+#Iteration   10    total energy = -16.69226744134276 Ry    difference = -0.0000009003
+Total energy        = -16.69226744134276 Ry
+One particle energy = -30.08515570 Ry
+Hartree energy      = 15.54436556043935 Ry
+XC energy           = -5.38817707955864 Ry
 Ewald energy        = 3.23669977760325 Ry
 
 
@@ -970,40 +645,62 @@ number G-vectors   = 322453
 structure factors shape = (2, 322453)
 =======================
 
-#Iteration    1    total energy = -82.03085936394007 Ry    difference = -inf
-#Iteration    2    total energy = -84.81232548559214 Ry    difference = -2.7814661217
-#Iteration    3    total energy = -84.45543409890135 Ry    difference = 0.3568913867
-#Iteration    4    total energy = -84.36964830351202 Ry    difference = 0.0857857954
-#Iteration    5    total energy = -84.28447110648001 Ry    difference = 0.0851771970
-#Iteration    6    total energy = -84.22655325235820 Ry    difference = 0.0579178541
-#Iteration    7    total energy = -84.18575539631522 Ry    difference = 0.0407978560
-#Iteration    8    total energy = -84.15761389295773 Ry    difference = 0.0281415034
-#Iteration    9    total energy = -84.13829002086514 Ry    difference = 0.0193238721
-#Iteration   10    total energy = -84.12507064448363 Ry    difference = 0.0132193764
-#Iteration   11    total energy = -84.11605772678092 Ry    difference = 0.0090129177
-#Iteration   12    total energy = -84.10991879675225 Ry    difference = 0.0061389300
-#Iteration   13    total energy = -84.10573728637419 Ry    difference = 0.0041815104
-#Iteration   14    total energy = -84.10289253305129 Ry    difference = 0.0028447533
-#Iteration   15    total energy = -84.10095809636411 Ry    difference = 0.0019344367
-#Iteration   16    total energy = -84.09964265679723 Ry    difference = 0.0013154396
-#Iteration   17    total energy = -84.09874789892416 Ry    difference = 0.0008947579
-#Iteration   18    total energy = -84.09813899194711 Ry    difference = 0.0006089070
-#Iteration   19    total energy = -84.09772460046527 Ry    difference = 0.0004143915
-#Iteration   20    total energy = -84.09744242665079 Ry    difference = 0.0002821738
-#Iteration   21    total energy = -84.09725023125534 Ry    difference = 0.0001921954
-#Iteration   22    total energy = -84.09711927747554 Ry    difference = 0.0001309538
-#Iteration   23    total energy = -84.09703003147425 Ry    difference = 0.0000892460
-#Iteration   24    total energy = -84.09696915571763 Ry    difference = 0.0000608758
-#Iteration   25    total energy = -84.09692768679585 Ry    difference = 0.0000414689
-#Iteration   26    total energy = -84.09689934432780 Ry    difference = 0.0000283425
-#Iteration   27    total energy = -84.09688000063866 Ry    difference = 0.0000193437
-#Iteration   28    total energy = -84.09686683076185 Ry    difference = 0.0000131699
-#Iteration   29    total energy = -84.09685781818071 Ry    difference = 0.0000090126
-#Iteration   30    total energy = -84.09685168333890 Ry    difference = 0.0000061348
-#Iteration   31    total energy = -84.09684748534765 Ry    difference = 0.0000041980
-#Iteration   32    total energy = -84.09684462390045 Ry    difference = 0.0000028614
-Total energy        = -84.09684462390045 Ry
-One particle energy = -173.88347338 Ry
-Hartree energy      = 89.31305892526770 Ry
-XC energy           = -18.31376828889081 Ry
+#Iteration    1    total energy = -83.06394963822117 Ry    difference = -inf
+#Iteration    2    total energy = -88.17234648585693 Ry    difference = -5.1083968476
+#Iteration    3    total energy = -84.14728981619314 Ry    difference = 4.0250566697
+#Iteration    4    total energy = -84.19981403683393 Ry    difference = -0.0525242206
+#Iteration    5    total energy = -84.07216413341436 Ry    difference = 0.1276499034
+#Iteration    6    total energy = -84.09346919293367 Ry    difference = -0.0213050595
+#Iteration    7    total energy = -84.09689152344245 Ry    difference = -0.0034223305
+#Iteration    8    total energy = -84.09687719782767 Ry    difference = 0.0000143256
+#Iteration    9    total energy = -84.09685661182363 Ry    difference = 0.0000205860
+#Iteration   10    total energy = -84.09684327948624 Ry    difference = 0.0000133323
+#Iteration   11    total energy = -84.09684080483261 Ry    difference = 0.0000024747
+Total energy        = -84.09684080483261 Ry
+One particle energy = -173.88346925 Ry
+Hartree energy      = 89.31305923518450 Ry
+XC energy           = -18.31376891570844 Ry
 Ewald energy        = 18.78733812158439 Ry
+
+
+===== system info =====
+L1, L2, L3    = 18.897261246257703, 18.897261246257703, 18.897261246257703 a.u.
+natom         = 10
+ntype         = 3
+symbol list   = ['H', 'C', 'N']
+vellist       = [1, 4, 5]
+number list   = [1, 6, 7]
+atom list     = [5, 4, 1]
+pp nuc charge = [1, 1, 1, 1, 1, 4, 4, 4, 4, 5]
+nuc charge    = [1, 1, 1, 1, 1, 6, 6, 6, 6, 7]
+
+ntype pp mesh = 3 and length for each [602, 602, 602]
+ntype pp Vloc = 3
+pp l-channel  = [[0], [0, 1], [0, 1]]
+pp nid        = [[2], [2, 2], [2, 2]]
+pp beta       = [(2, 602), (4, 602), (4, 602)]
+
+ecutwfc = 25 Ht    ecutrho = 100 Ht
+Ewald contribution = 68.78177455740935 Ry
+fft grid shape     = (90, 90, 90)
+number G-vectors   = 322453
+structure factors shape = (3, 322453)
+=======================
+
+#Iteration    1    total energy = -68.02670661262682 Ry    difference = -inf
+#Iteration    2    total energy = -73.48246639304161 Ry    difference = -5.4557597804
+#Iteration    3    total energy = -70.59175752528948 Ry    difference = 2.8907088678
+#Iteration    4    total energy = -71.30286869393102 Ry    difference = -0.7111111686
+#Iteration    5    total energy = -71.46479275304846 Ry    difference = -0.1619240591
+#Iteration    6    total energy = -71.31389393571730 Ry    difference = 0.1508988173
+#Iteration    7    total energy = -71.29464390187208 Ry    difference = 0.0192500338
+#Iteration    8    total energy = -71.29537415013532 Ry    difference = -0.0007302483
+#Iteration    9    total energy = -71.29736466395842 Ry    difference = -0.0019905138
+#Iteration   10    total energy = -71.29732598988237 Ry    difference = 0.0000386741
+#Iteration   11    total energy = -71.29730821994890 Ry    difference = 0.0000177699
+#Iteration   12    total energy = -71.29730570657422 Ry    difference = 0.0000025134
+Total energy        = -71.29730570657422 Ry
+One particle energy = -241.36247051 Ry
+Hartree energy      = 123.88079750647384 Ry
+XC energy           = -22.59740725849716 Ry
+Ewald energy        = 68.78177455740935 Ry
