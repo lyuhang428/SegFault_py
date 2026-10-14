@@ -7,4 +7,4 @@ This is plane wave DFT code, features:
 - PBE and PZ functional only
 - it reads .upf and .cif only
 
-Benchmarked against Quantum Espresso, see `benchmark`
+Benchmarked against Quantum ESPRESSO, see `benchmark`
