@@ -1,8 +1,3 @@
-# This file is part of homemade-hf, a simple Hartree-Fock implementation.
-# This file contains utility functions and constants used throughout the project. 
-# Author: lyh
-
-
 import numpy as np
 from scipy.special import factorial, factorial2, gamma, gammaincc, hyp1f1
 from typing import Any
