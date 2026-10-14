@@ -1,9 +1,3 @@
-# This file is part of homemade-hf, a simple Hartree-Fock implementation.
-# This file contains the `Molecule`, `Atom`, and `ContractedGaussianFunction` classes
-# When building a `molecule`, it reads the xyz file and basis set file, and creates `atoms` with their `contracted Gaussian functions`.
-# The overall structure is: Molecule -> Atom -> ContractedGaussianFunction
-# Author: lyh
-
 import re
 import numpy as np
 import ase
