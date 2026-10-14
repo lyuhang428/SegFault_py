@@ -1,9 +1,5 @@
-# This file is part of homemade-hf, a simple Hartree-Fock implementation.
 # This file uses `ctypes` to wrap C code for the McMurchie-Davidson scheme for evaluating molecular integrals over Gaussian functions.
 # This implementation is faster than mmd.py, but slower than mmd2.py.
-# The C code is straightforward and easy to read, while moderately performance improved. 
-# The C code is not OpenMP parallelized. 
-# Author: lyh
 
 import numpy as np
 import ctypes
