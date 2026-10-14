@@ -1,8 +1,5 @@
-# This file is part of homemade-hf, a simple Hartree-Fock implementation.
 # This file is a pure Python implementation of the McMurchie-Davidson scheme for evaluating molecular integrals over Gaussian functions.
 # This implementation is the slowest among mmd, mmd2, mmd3. But it's straightforward, focusing on clarity rather than performance.
-# Author: lyh
-
 
 import numpy as np
 from molecule import Molecule, ContractedGaussianFunction
