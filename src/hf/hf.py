@@ -1,9 +1,3 @@
-# This file is part of the mmd package.
-# `multiprocessing` is used to parallelize the calculation of electron repulsion integrals (ERIs).
-# DIIS algorithm is implemented to accelerate the SCF convergence.
-# Only closeed-shell single point energy calculation at Hartree Fock level implemented, wavefunction can be obtained very straightforwardly, though not implemented yet.
-# Author: lyh
-
 import numpy                      as np
 from   multiprocessing        import Pool
 from   typing                 import Any, TextIO
@@ -235,22 +229,6 @@ def scf_damping(mol:Molecule, tol=1e-8, maxiter=100, wfn:bool=False, wfn_e:bool=
 
 @timeit
 def scf_diis(mol:Molecule, tol=1e-8, maxiter=100, wfn:bool=False, wfn_e:bool=False, log:str|TextIO=stdout) -> Any:
-    '''
-    Notes
-    -----
-
-    Pulay's original DIIS formulation is also known as commutator-DIIS (cDIIS)
-        [1] Pulay P (1980) Convergence acceleration of iterative sequences. The case of SCF iteration. Chem Phys Lett 73(2):393-398
-        [2] Pulay P (1982) Improved SCF convergence acceleration. J Comput Chem 3(4):556-560
-        [3] Lorenzo Maschio (2018) https://doi.org/10.1007/s00214-018-2238-8
-
-    DIIS is usually used after a few common SCF iterations
-
-    `np.linalg.eigh` usually sorts eigenvecs according to eigenvals, if bug comes, check this and sort them if necessary
-
-    if `np.linalg.solve` raises `np.linalg.LinAlgError` due to linear dependence, skip DIIS and change to common iteration
-    '''
-
     ncgf = 0
     cgfs = []
     for atom in mol.atoms:
