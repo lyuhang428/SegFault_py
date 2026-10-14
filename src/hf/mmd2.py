@@ -1,10 +1,5 @@
-# This file is part of homemade-hf, a simple Hartree-Fock implementation.
 # This file uses `f2py` to wrap Fortran code for the McMurchie-Davidson scheme for evaluating molecular integrals over Gaussian functions.
 # This implementation is the fastest among mmd.py, mmd2.py, and mmd3.py.
-# The Fotran code is straightforward and easy to read, while acceptablely fast. 
-# The Fortran code is not OpenMP parallelized. 
-# Author: lyh
-
 
 import numpy as np
 from molecule import Molecule, ContractedGaussianFunction
