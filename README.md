@@ -24,10 +24,15 @@ src/
 
 ## Validation/Benchmark
 Validation against Quantum ESPRESSO (version 7.3.1)
+
 Machine: ThinkPad T14p, 13th Gen Intel(R) Core(TM) i5-13500H, 1 threads.
+
 Functional: PBE
+
 PP: ONCV sg-15
+
 Ecutwfc: 25 Ry
+
 Cubic cell
 
 | System | $\quad\Delta E_\text{tot}\quad$ | $\quad\Delta E_\text{1e}\quad$ | $\quad\Delta E_\text{hartree}\quad$ | $\quad\Delta E_\text{xc}\quad$ | $\quad\Delta E_\text{ewald}$ |  
