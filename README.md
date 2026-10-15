@@ -16,6 +16,12 @@ src/
 └── pw
 ```
 
+`hf` implements in almost pure Python, with the molecular integral engine written in C and Fortran. The C wrapper is `ctypes`, and interface to Fortran relies on `f2py`.
+
+`dft` implements in pure Python, where only LDA functional is supported. Different from the implementation of [`SegFault`](https://github.com/lyuhang428/SegFault), this `dft` numerically solves Poisson's equation to construct Coulomb operator, which avoids the expensive 2e4c integral but the numerical solver is unfortunately still slow.
+
+`pw` implements in pure Python, which does plane wave DFT calculations. Currently only restricted LDA/PBE, $\Gamma$-only, cubic cell, and ONCV pseudopotentials are supported.
+
 ## Validation/Benchmark
 Validation against Quantum ESPRESSO (version 7.3.1)
 Machine: ThinkPad T14p, 13th Gen Intel(R) Core(TM) i5-13500H, 1 threads.
